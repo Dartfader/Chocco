@@ -1,0 +1,57 @@
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    /*background-color: #9ea1d7;*/
+}
+.left-content {
+    /*background-color: #6295ff;*/
+    width: 550px;
+    height: 100%;
+}
+.left-content__h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size:40pt;
+}
+.left-content__h2 {
+    color: white;
+    font-size:15pt;
+}
+ul.icons__ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+.icons-content {
+    display: flex;
+    /* flex-direction: row; */
+    width: 44%;
+}
+
+.left-content__button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff4fb;
+    border: 2px solid white;
+    border-radius: 60px;
+    color: #1f7c15;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 19pt;
+    padding:14px 39px 15px 39px;
+    margin-left: 0;
+}
+.right-content {
+    /*background-color: #ff6d77;*/
+    width: 470px;
+    height: 100%;
+    background-image: url("../img/Батончики.png")
+}
+
+.ul__item {
+
+}

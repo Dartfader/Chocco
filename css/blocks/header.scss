@@ -1,26 +1,23 @@
-body {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-}
 
 /*vieport-height*/
 .section{
-    height:650px;
+    height:100%;
     width: 100%;
     background-color: #86c3d7;
-    background-image: url("");
+    background-image: url("");/*Прописать батончики можно здесь*/
 }
 .container {
 
     display: flex;
     overflow: hidden;
     max-width: 960px;
+    //padding-top: ;
     height: 100%;
     margin: auto;
 
     flex-direction: column;
     border: 1px solid grey;
-    background-color: coral;
+    /*background-color: coral;*/
 }
 /* Оформление header*/
 .header {
@@ -31,11 +28,15 @@ body {
 .nav__list {
     border: 1px solid green;
     display: flex;
+    padding: 0;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-
+.nav__link {
+    color: white;
+    text-decoration: none;
+}
 .nav__item {
     color: white;
     padding: 15px;
@@ -51,10 +52,4 @@ a.header__logo {
     margin-right: auto;
 }
 
-.article {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 60%;
-    background-color: #9ea1d7;
-}
+
