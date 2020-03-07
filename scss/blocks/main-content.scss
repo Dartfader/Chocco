@@ -1,4 +1,4 @@
-
+//Оформление основного контента 1й секции
 .main-content {
     display: flex;
     flex-direction: row;
@@ -20,18 +20,10 @@
     color: white;
     font-size:15pt;
 }
-ul.icons__ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-}
-.icons-content {
-    display: flex;
-    /* flex-direction: row; */
-    width: 44%;
-}
 
-.left-content__button{
+
+
+.main-content__button{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -39,8 +31,9 @@ ul.icons__ul {
     border: 2px solid white;
     border-radius: 60px;
     color: #1f7c15;
-    text-transform: uppercase;
-    text-decoration: none;
+
+    @include normalfont;
+
     font-size: 19pt;
     padding:14px 39px 15px 39px;
     margin-left: 0;
@@ -52,6 +45,3 @@ ul.icons__ul {
     background-image: url("../img/Батончики.png")
 }
 
-.ul__item {
-
-}

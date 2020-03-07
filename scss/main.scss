@@ -1,0 +1,16 @@
+/*Переменные*/
+@import "./layout/variant";
+
+//mixins
+@import "./layout/mixins";
+
+/*модули*/
+@import "./layout/reset style";
+@import "./blocks/container";
+@import "./blocks/header";
+@import "./blocks/about";
+@import "./blocks/main-content";
+@import "./layout/fonts";
+@import "./blocks/features";
+
+/*модули*/

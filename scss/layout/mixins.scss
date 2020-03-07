@@ -1,0 +1,11 @@
+//font mixin
+
+@mixin normalfont {
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+@mixin Aleg {
+  font-family:'Alegreya Sans', sans-serif;
+}

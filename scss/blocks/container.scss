@@ -1,0 +1,36 @@
+body, html {
+  height: 100%;
+
+  & .wrapper {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+body {
+  @include Aleg;
+  //font-family:'Alegreya Sans', sans-serif;
+}
+
+.section{
+  height:100%;
+  width: 100%;
+  background-color: $blue;
+  background-image: url("");
+  /*Прописать батончики можно здесь*/
+  //& .about{
+  //  background-color: $white;
+  //}
+}
+.container {
+  display: flex;
+  overflow: hidden;
+  max-width: 960px;
+  min-width: 300px;
+  //padding-top: ;
+  height: 100%;
+  margin: auto;
+
+  flex-direction: column;
+
+}

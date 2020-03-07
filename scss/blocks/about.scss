@@ -1,0 +1,28 @@
+.section.about {
+  background: $white;
+}
+
+.about__list {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+}
+.about__item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 1px solid #802a58;
+}
+.about__icon {
+  width: 40px;
+  height: 40px;
+  background: #fa604c;
+}
+svg.about__svg {
+  width: 100%;
+  height: 100%;
+}
+.about__title {
+  text-align: center;
+  color:$black;
+}

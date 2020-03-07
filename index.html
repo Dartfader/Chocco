@@ -9,18 +9,15 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500;700;800;900&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="./css/layout/normalize.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="scss/layout/normalize.css">
 
+    <link rel="stylesheet" href="css/main.css">
 
-    <!--<link rel="stylesheet" href="css/header.scss">-->
-    <!--<link rel="stylesheet" href="css/main-content.scss">-->
-    <!--<link rel="stylesheet" href="css/fonts.scss">-->
 
 </head>
 <body>
 <div class="wrapper">
-    <section class="section">
+    <section class="section hero">
         <div class="container">
             <header class="header hero">
                 <a href="#" class="header__logo">
@@ -38,28 +35,101 @@
                         <li class="nav__item"><a href="#" class="nav__link">8  800 903 90 90</a> </li>
                     </ul>
                 </nav>
-
-
             </header>
-            <div class="main-content">
+            <div class="main-content hero">
                 <div class="left-content">
                     <h1 class="left-content__h1">Натуральные шоколадные батончики</h1>
                     <h2 class="left-content__h2">Наши батончики идеально подходят для
                         тех, кто следит за своим здоровьем</h2>
-                    <button class="left-content__button">
+                    <button class="main-content__button">
                         Заказать
                     </button>
                 </div>
                 <div class="right-content">Контент справа</div>
             </div>
-            <div class="icons-content">
-                <ul class="icons__ul">
-                    <li class="ul__item icon"> 100% натуральный продукт</li>
-                    <li class="ul__item icon">3-5 дней доставка по РФ</li>
-                    <li class="ul__item icon"> Не портит фигуру</li>
+            <div class="hero__features">
+                <ul class="hero__features-list">
+                    <li class="hero__features-item">
+                        <div class="hero__features-icon">
+                            <svg class="hero__features-pic" viewBox="0 0 16 15.2">
+                                <use href="./image/icons/5.svg"></use>
+                            </svg>
+                        </div>
+                        <span class="hero__icons-title">100% натуральный продукт</span>
+                    </li>
+                    <li class="hero__features-item">
+                        <div class="hero__features-icon">
+                            <svg class="hero__features-pic" viewBox="0 0 16 15.2">
+                                <use href="./image/icons/5.svg"></use>
+                            </svg>
+                        </div>
+                        <span class="hero__icons-title">100% натуральный продукт</span>
+                    </li>
+                    <li class="hero__features-item">
+                        <div class="hero__features-icon">
+                            <svg class="hero__features-pic" viewBox="0 0 16 15.2">
+                                <use href="./image/icons/5.svg"></use>
+                            </svg>
+                        </div>
+                        <span class="hero__icons-title">100% натуральный продукт</span>
+                    </li>
+
+
                 </ul>
 
             </div>
+        </div>
+    </section>
+
+    <section class="section about">
+        <div class="container">
+           <div class="about__inform">
+               <h2 class="about__title">
+                   Почему Chocco?
+               </h2>
+               <span class="about__text">
+               В нашем мире все происходит очень быстро, поэтому мы
+делаем батончики, которые удобно взять с собо
+            </span>
+           </div> 
+            <ul class="about__list">
+                <li class="about__item">
+                    <div class="about__icon">
+                        <svg class="about__svg"></svg>
+                    </div>
+                    <h3 class="about__title">Полезно</h3>
+                    <span class="about__text">
+                        Натуральность - ключевое качество
+                            нашей продукции. Мы используем
+                            только природные ингредиенты.
+                    </span>
+                </li>
+                <li class="about__item">
+                    <div class="about__icon">
+                        <svg class="about__svg"></svg>
+                    </div>
+                    <h3 class="about__title">Полезно</h3>
+                    <span class="about__text">
+                        Натуральность - ключевое качество
+                            нашей продукции. Мы используем
+                            только природные ингредиенты.
+                    </span>
+                </li>
+                <li class="about__item">
+                    <div class="about__icon">
+                        <svg class="about__svg"></svg>
+                    </div>
+                    <h3 class="about__title">Полезно</h3>
+                    <span class="about__text">
+                        Натуральность - ключевое качество
+                            нашей продукции. Мы используем
+                            только природные ингредиенты.
+                    </span>
+                </li>
+
+
+            </ul>
+            
         </div>
     </section>
 </div>
