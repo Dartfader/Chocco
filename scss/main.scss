@@ -4,9 +4,13 @@
 //mixins
 @import "./layout/mixins";
 
+//layout
+@import "layout/normalize";
 /*модули*/
+
 @import "./layout/reset style";
 @import "./blocks/container";
+@import "./blocks/decoration";
 @import "./blocks/header";
 @import "./blocks/about";
 @import "./blocks/main-content";

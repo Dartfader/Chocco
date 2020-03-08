@@ -12,8 +12,11 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  color: $white;
 }
 .hero__features-icon {
+  background: #fa604c;
+  justify-content: space-between;
   width: 2.8125rem;
   margin-right: 0.5625rem;
 }

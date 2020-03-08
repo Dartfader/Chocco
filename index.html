@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Choco</title>
+    <title>Chocco</title>
 
 
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500;700;800;900&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="scss/layout/normalize.css">
+    <link rel="stylesheet" href="scss/layout/normalize.scss">
 
     <link rel="stylesheet" href="css/main.css">
 
@@ -19,6 +19,12 @@
 <div class="wrapper">
     <section class="section hero">
         <div class="container">
+            <div class="hero__gerb">
+                <img src="./img/узор.png" alt="gerb" class="herb">
+            </div>
+            <div class="hero__bars">
+                <img src="./img/Батончики.png" alt="Bars" class="hero__bars">
+            </div>
             <header class="header hero">
                 <a href="#" class="header__logo">
                     <img class="header__logo-img" src="img/logo.png" />
@@ -38,14 +44,13 @@
             </header>
             <div class="main-content hero">
                 <div class="left-content">
-                    <h1 class="left-content__h1">Натуральные шоколадные батончики</h1>
+                    <h1 class="main-content__title">Натуральные шоколадные батончики</h1>
                     <h2 class="left-content__h2">Наши батончики идеально подходят для
                         тех, кто следит за своим здоровьем</h2>
                     <button class="main-content__button">
                         Заказать
                     </button>
                 </div>
-                <div class="right-content">Контент справа</div>
             </div>
             <div class="hero__features">
                 <ul class="hero__features-list">
@@ -83,13 +88,14 @@
 
     <section class="section about">
         <div class="container">
-           <div class="about__inform">
-               <h2 class="about__title">
+           <div class="about__info">
+               <h2 class="section__title">
                    Почему Chocco?
                </h2>
                <span class="about__text">
-               В нашем мире все происходит очень быстро, поэтому мы
-делаем батончики, которые удобно взять с собо
+               В нашем мире все происходит очень быстро,
+                   поэтому мы делаем батончики,
+                   которые удобно взять с собой
             </span>
            </div> 
             <ul class="about__list">
@@ -97,12 +103,15 @@
                     <div class="about__icon">
                         <svg class="about__svg"></svg>
                     </div>
-                    <h3 class="about__title">Полезно</h3>
-                    <span class="about__text">
+                    <div class="about__content">
+                        <h3 class="about__">Полезно</h3>
+                        <span class="about__text">
                         Натуральность - ключевое качество
                             нашей продукции. Мы используем
                             только природные ингредиенты.
                     </span>
+                    </div>
+
                 </li>
                 <li class="about__item">
                     <div class="about__icon">

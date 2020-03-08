@@ -6,15 +6,17 @@
     height: 80%;
     /*background-color: #9ea1d7;*/
 }
+
 .left-content {
     /*background-color: #6295ff;*/
     width: 550px;
     height: 100%;
 }
-.left-content__h1 {
+.main-content__title {
     color: white;
     text-transform: uppercase;
     font-size:40pt;
+    margin-top: 76px;
 }
 .left-content__h2 {
     color: white;
@@ -38,10 +40,20 @@
     padding:14px 39px 15px 39px;
     margin-left: 0;
 }
-.right-content {
-    /*background-color: #ff6d77;*/
-    width: 470px;
+//.right-content {
+//    z-index: 10;
+//    width: 529px;
+//    height: 100%;
+//    align-items: center;
+//    background: url("../img/Батончики.png") no-repeat ;
+//
+//}
+.hero__bars {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 529px;
     height: 100%;
-    background-image: url("../img/Батончики.png")
+    align-items: center;
 }
-
