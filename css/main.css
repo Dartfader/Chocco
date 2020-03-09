@@ -470,16 +470,14 @@ img {
 }
 
 a.header__logo {
-  margin-right: auto;
+  margin-right: 4%;
 }
 
 .main-content {
   display: flex;
-  /*background-color: #9ea1d7;*/
 }
 
 .left-content {
-  /*background-color: #6295ff;*/
   width: 550px;
   height: 100%;
 }
@@ -494,6 +492,7 @@ a.header__logo {
 .left-content__h2 {
   color: white;
   font-size: 15pt;
+  width: 73%;
 }
 
 .main-content__button {
@@ -534,8 +533,8 @@ a.header__logo {
 
 .hero__features-icon {
   justify-content: space-between;
-  width: 2.8125rem;
-  margin-right: 0.5625rem;
+  width: 60px;
+  margin-right: 7%;
 }
 
 .hero__features-title {
@@ -562,8 +561,8 @@ ul, li {
   background: url(../img/malina.png) left bottom no-repeat;
   display: block;
   z-index: 31;
-  width: 28%;
-  height: 36%;
+  width: 33%;
+  height: 53%;
   left: 0;
   top: 100%;
   transform: translateY(-50%);
@@ -579,6 +578,7 @@ h2.section__title {
   font-size: 40pt;
   color: black;
   margin: 94px 10px 28px 10px;
+  text-align: center;
 }
 
 .section__text {
@@ -627,8 +627,29 @@ svg.about__svg {
   background: white;
 }
 
-.section__title {
-  text-align: center;
+.feedback::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 50%;
+  left: 0;
+  top: 100%;
+  transform: translateY(-50%);
+  background: url(../img/fruits__feedback.png) left bottom no-repeat;
+}
+
+.feedback::before {
+  content: url(../img/decor__feedback.png);
+  position: absolute;
+  top: 5%;
+  right: 0;
+}
+
+.feedback__container {
+  justify-content: center;
+  max-width: 940px;
+  flex: 1;
 }
 
 .feedback__list {
@@ -643,31 +664,50 @@ svg.about__svg {
   margin-bottom: 5%;
 }
 
+.feedback__left {
+  margin-right: 25px;
+}
+
 .feedback__photo {
-  width: 255px;
-  height: 261px;
-  margin-right: 10px;
+  width: 260px;
+  height: 270px;
+}
+
+.feedback__photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
 }
 
 .feedback__text {
   width: 50%;
 }
 
+.feedback__avatars {
+  display: flex;
+  justify-content: center;
+}
+
 .avatar__item {
-  width: 50px;
-  height: 50px;
+  border: 0.5rem solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar__image {
+  height: 64px;
+  width: 64px;
 }
 
 .avatar-img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
-.feedback__avatars {
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
-  margin: auto;
+.active {
+  border-color: #106331;
 }
 
 @font-face {
