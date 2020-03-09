@@ -4,3 +4,48 @@
   top: 0;
   right: 0;
 }
+  //.hero__bars {
+  //  position: absolute;
+  //  top: 3%;
+  //  right: 0;
+  //  z-index: 10;
+  //  width: 529px;
+  //  height: 100%;
+  //  align-items: center;
+  //}
+
+.hero__container::before {
+  content: url(../img/leaf.png);
+  position: absolute;
+  display: block;
+  bottom: 0;
+  transform: translateY(50%);
+  left: 2%;
+  z-index: 10;
+}
+.hero__container::after {
+  content:"";
+  background: url(../img/decor.png) right bottom no-repeat;
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+  transform: translateY(15%);
+  right: 1%;
+  z-index: 10;
+}
+
+.hero__bars {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 459px;
+  /* right: 0; */
+  width: 100%;
+  bottom: 2%;
+  top: 3%;
+  z-index: 10;
+  /* height: 100%; */
+}

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*Переменные*/
 /*! _normalize.css v8.0.1 | MIT License | github.com/necolas/_normalize.css */
 /* Document
    ========================================================================== */
@@ -340,7 +339,6 @@ template {
   display: none;
 }
 
-/*модули*/
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   font-weight: normal;
@@ -351,10 +349,19 @@ ul {
   margin: 0;
 }
 
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 body, html {
   height: 100%;
 }
-body .wrapper, html .wrapper {
+
+.wrapper {
   height: 100%;
   width: 100%;
 }
@@ -374,17 +381,16 @@ img {
   min-height: 600px;
   width: 100%;
   background-color: #86c3d7;
-  background-image: url("");
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   margin: auto;
   max-width: 940px;
   min-width: 300px;
   height: 100%;
+  z-index: 10;
 }
 
 .hero__gerb {
@@ -394,10 +400,48 @@ img {
   right: 0;
 }
 
+.hero__container::before {
+  content: url(../img/leaf.png);
+  position: absolute;
+  display: block;
+  bottom: 0;
+  transform: translateY(50%);
+  left: 2%;
+  z-index: 10;
+}
+
+.hero__container::after {
+  content: "";
+  background: url(../img/decor.png) right bottom no-repeat;
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+  transform: translateY(15%);
+  right: 1%;
+  z-index: 10;
+}
+
+.hero__bars {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 459px;
+  /* right: 0; */
+  width: 100%;
+  bottom: 2%;
+  top: 3%;
+  z-index: 10;
+  /* height: 100%; */
+}
+
 /* Оформление header*/
 .header {
   display: flex;
   align-items: center;
+  z-index: 20;
 }
 
 .nav__list {
@@ -429,60 +473,8 @@ a.header__logo {
   margin-right: auto;
 }
 
-.section.about {
-  background: white;
-}
-
-h2.section__title {
-  text-transform: uppercase;
-  font-size: 40pt;
-  color: black;
-}
-
-.about__info {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 88px;
-  margin-bottom: 60px;
-}
-
-.about__list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border: 1px solid grey;
-}
-
-.about__item {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  max-width: 30%;
-  text-align: center;
-  border: 1px solid #2a4c80;
-}
-
-.about__icon {
-  width: 40px;
-  height: 40px;
-  background: #fa604c;
-}
-
-svg.about__svg {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.about__title {
-  color: black;
-}
-
 .main-content {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 80%;
   /*background-color: #9ea1d7;*/
 }
 
@@ -520,24 +512,11 @@ svg.about__svg {
   margin-left: 0;
 }
 
-.hero__bars {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 10;
-  width: 529px;
-  height: 100%;
-  align-items: center;
-}
-
-@font-face {
-  font-family: "Alegreya Sans", sans-serif;
-  src: url("fonts/AlegreyaSans-Regular.ttf");
-}
 .hero__features {
   display: flex;
   font-size: 1rem;
   width: 51%;
+  margin-bottom: 3%;
 }
 
 .hero__features-list {
@@ -554,7 +533,6 @@ svg.about__svg {
 }
 
 .hero__features-icon {
-  background: #fa604c;
   justify-content: space-between;
   width: 2.8125rem;
   margin-right: 0.5625rem;
@@ -570,4 +548,129 @@ ul, li {
   margin: 0;
 }
 
-/*модули*/
+.about {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.about::after {
+  content: "";
+  position: absolute;
+  background: url(../img/malina.png) left bottom no-repeat;
+  display: block;
+  z-index: 31;
+  width: 28%;
+  height: 36%;
+  left: 0;
+  top: 100%;
+  transform: translateY(-50%);
+}
+
+.about__info {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+h2.section__title {
+  text-transform: uppercase;
+  font-size: 40pt;
+  color: black;
+  margin: 94px 10px 28px 10px;
+}
+
+.section__text {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.about__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.about__item {
+  position: relative;
+  max-width: 30%;
+  text-align: center;
+}
+
+.about__icon {
+  margin: auto;
+  width: 132px;
+  height: 100px;
+  margin-bottom: 15%;
+}
+
+svg.about__svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.about__title {
+  color: black;
+  font-size: 28px;
+}
+
+.about__text {
+  display: block;
+  width: 85%;
+  margin: auto;
+}
+
+.feedback {
+  background: white;
+}
+
+.section__title {
+  text-align: center;
+}
+
+.feedback__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.feedback__item {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.feedback__photo {
+  width: 255px;
+  height: 261px;
+  margin-right: 10px;
+}
+
+.feedback__text {
+  width: 50%;
+}
+
+.avatar__item {
+  width: 50px;
+  height: 50px;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+}
+
+.feedback__avatars {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Alegreya Sans", sans-serif;
+  src: url("fonts/AlegreyaSans-Regular.ttf");
+}

@@ -18,12 +18,10 @@
 <body>
 <div class="wrapper">
     <section class="section hero">
-        <div class="container">
+        <!--::before ==$0-->
+        <div class="container hero__container">
             <div class="hero__gerb">
                 <img src="./img/узор.png" alt="gerb" class="herb">
-            </div>
-            <div class="hero__bars">
-                <img src="./img/Батончики.png" alt="Bars" class="hero__bars">
             </div>
             <header class="header hero">
                 <a href="#" class="header__logo">
@@ -51,30 +49,36 @@
                         Заказать
                     </button>
                 </div>
+                <div class="hero__bars">
+                    <img src="./img/Батончики.png" alt="Bars" class="hero__bars">
+                </div>
             </div>
             <div class="hero__features">
                 <ul class="hero__features-list">
                     <li class="hero__features-item">
                         <div class="hero__features-icon">
-                            <svg class="hero__features-pic" viewBox="0 0 16 15.2">
-                                <use href="./image/icons/5.svg"></use>
-                            </svg>
+                            <img src="./img/natural.png" alt="natural" class="hero__features-pic">
+                            <!--<svg class="hero__features-pic" viewBox="0 0 16 15.2">-->
+                                <!--<use href="./image/icons/5.svg"></use>-->
+                            <!--</svg>-->
                         </div>
                         <span class="hero__icons-title">100% натуральный продукт</span>
                     </li>
                     <li class="hero__features-item">
                         <div class="hero__features-icon">
-                            <svg class="hero__features-pic" viewBox="0 0 16 15.2">
-                                <use href="./image/icons/5.svg"></use>
-                            </svg>
+                            <img src="./img/truck.png" alt="natural" class="hero__features-pic">
+                            <!--<svg class="hero__features-pic" viewBox="0 0 16 15.2">-->
+                            <!--<use href="./image/icons/5.svg"></use>-->
+                            <!--</svg>-->
                         </div>
                         <span class="hero__icons-title">100% натуральный продукт</span>
                     </li>
                     <li class="hero__features-item">
                         <div class="hero__features-icon">
-                            <svg class="hero__features-pic" viewBox="0 0 16 15.2">
-                                <use href="./image/icons/5.svg"></use>
-                            </svg>
+                            <img src="./img/fit.png" alt="natural" class="hero__features-pic">
+                            <!--<svg class="hero__features-pic" viewBox="0 0 16 15.2">-->
+                            <!--<use href="./image/icons/5.svg"></use>-->
+                            <!--</svg>-->
                         </div>
                         <span class="hero__icons-title">100% натуральный продукт</span>
                     </li>
@@ -87,12 +91,12 @@
     </section>
 
     <section class="section about">
-        <div class="container">
+        <div class="container about__container">
            <div class="about__info">
                <h2 class="section__title">
                    Почему Chocco?
                </h2>
-               <span class="about__text">
+               <span class="section__text">
                В нашем мире все происходит очень быстро,
                    поэтому мы делаем батончики,
                    которые удобно взять с собой
@@ -101,10 +105,11 @@
             <ul class="about__list">
                 <li class="about__item">
                     <div class="about__icon">
-                        <svg class="about__svg"></svg>
+                        <img src="./img/useful.png" alt="" class="about-pic">
+                        <!--<svg class="about__svg"></svg>-->
                     </div>
                     <div class="about__content">
-                        <h3 class="about__">Полезно</h3>
+                        <h3 class="about__title">Полезно</h3>
                         <span class="about__text">
                         Натуральность - ключевое качество
                             нашей продукции. Мы используем
@@ -115,7 +120,8 @@
                 </li>
                 <li class="about__item">
                     <div class="about__icon">
-                        <svg class="about__svg"></svg>
+                        <img src="./img/smile.png" alt="" class="about-pic">
+                        <!--<svg class="about__svg"></svg>-->
                     </div>
                     <h3 class="about__title">Полезно</h3>
                     <span class="about__text">
@@ -126,7 +132,8 @@
                 </li>
                 <li class="about__item">
                     <div class="about__icon">
-                        <svg class="about__svg"></svg>
+                        <img src="./img/power.png" alt="" class="about-pic">
+                        <!--<svg class="about__svg"></svg>-->
                     </div>
                     <h3 class="about__title">Полезно</h3>
                     <span class="about__text">
@@ -140,6 +147,48 @@
             </ul>
             
         </div>
+    </section>
+
+    <section class="section feedback">
+        <div class="container feedback__container">
+            <h1 class="section__title">Отзывы</h1>
+
+            <div class="feedback__card">
+                <ul class="feedback__list">
+            <li class="feedback__item">
+                <div class="feedback__photo">
+                    <img src="./img/feedback/photo1.jpg" alt="" class="photo-img">
+                </div>
+                <div class="feedback__info">
+                    <h2 class="feedback__title">Лучший перекус</h2>
+                    <p class="feedback__text">
+                        Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за компьютером
+                        и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он всегда под рукой. Это приятно
+                        и удобно.
+                    </p>
+                    <h3 class="feedback__name">
+                        Алена Хмельницкая
+                    </h3>
+                </div>
+
+
+            </li>
+        </ul>
+                <ul class="feedback__avatars">
+                    <li class="avatar__item">
+                    <img src="./img/feedback/photo1.jpg" alt="" class="avatar-img">
+                </li>
+                    <li class="avatar__item">
+                        <img src="./img/feedback/photo1.jpg" alt="" class="avatar-img">
+                    </li>
+                    <li class="avatar__item">
+                        <img src="./img/feedback/photo1.jpg" alt="" class="avatar-img">
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
     </section>
 </div>
 

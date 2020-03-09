@@ -1,9 +1,9 @@
 //Оформление основного контента 1й секции
 .main-content {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 80%;
+    //flex-direction: row;
+    //width: 100%;
+    //height: 80%;
     /*background-color: #9ea1d7;*/
 }
 
@@ -48,12 +48,4 @@
 //    background: url("../img/Батончики.png") no-repeat ;
 //
 //}
-.hero__bars {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    width: 529px;
-    height: 100%;
-    align-items: center;
-}
+

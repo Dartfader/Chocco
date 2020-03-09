@@ -1,4 +1,4 @@
-/*Переменные*/
+//Переменные
 @import "./layout/variant";
 
 //mixins
@@ -6,15 +6,18 @@
 
 //layout
 @import "layout/normalize";
-/*модули*/
+
+//blocks
 
 @import "./layout/reset style";
 @import "./blocks/container";
 @import "./blocks/decoration";
 @import "./blocks/header";
-@import "./blocks/about";
 @import "./blocks/main-content";
-@import "./layout/fonts";
 @import "./blocks/features";
+@import "./blocks/about";
+@import "./blocks/feedback";
+@import "./layout/fonts";
 
-/*модули*/
+
+

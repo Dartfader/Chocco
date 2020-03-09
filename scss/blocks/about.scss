@@ -1,41 +1,59 @@
-.section.about {
+.about {
   background: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.about::after {
+  content: "";
+  position: absolute;
+  background: url(../img/malina.png) left bottom no-repeat;
+  display: block;
+  z-index: 31;
+  width: 28%;
+  height: 36%;
+  left: 0;
+  top: 100%;
+  transform: translateY(-50%);
+}
+.about__info {
+  text-align: center;
+  //margin-top: 88px;
+   margin-bottom: 60px;
 }
 h2.section__title {
   text-transform: uppercase;
   font-size:40pt;
   color:$black;
+  margin: 94px 10px 28px 10px;
 }
-.about__info{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 88px;
-  margin-bottom: 60px;
+.section__text {
+  display: block;
+  width: 50%;
+  margin: auto;
 }
-.about__text {
 
-}
 .about__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px solid grey;
+  margin-bottom: 5%;
 
 }
 .about__item {
-  display: flex;
-  flex-direction: column;
   position: relative;
   max-width: 30%;
 
   text-align: center;
-  border: 1px solid #2a4c80;
+
 }
 .about__icon {
-  width: 40px;
-  height: 40px;
-  background: #fa604c;
+  margin: auto;
+  width: 132px;
+  height: 100px;
+  //background: #fa604c;
+  margin-bottom: 15%;
 }
 svg.about__svg {
   max-width: 100%;
@@ -43,9 +61,11 @@ svg.about__svg {
 }
 .about__title {
   color:$black;
-
+  font-size: 28px;
+}
+.about__text {
+  display: block;
+  width: 85%;
+  margin: auto;
 }
 
-.about__content {
-
-}
