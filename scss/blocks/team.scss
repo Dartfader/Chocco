@@ -2,6 +2,9 @@
   background: $white;
   border: 2px solid grey;
 }
+.team__title {
+  text-align: center;
+}
 .team__list {
   display: flex;
   justify-content: space-between;
