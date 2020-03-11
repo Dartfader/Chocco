@@ -1,0 +1,27 @@
+.team {
+  background: $white;
+  border: 2px solid grey;
+}
+.team__list {
+  display: flex;
+  justify-content: space-between;
+
+}
+.team__picture {
+  height: 290px;
+  width: 230px;
+}
+.team__picture:hover {
+  background-color: #1f7c15;
+  height: 290px;
+  width: 230px;
+}
+.team__hidden {
+  height:0;
+  overflow: hidden;
+}
+
+.team-pic {
+  height:100%;
+  width: 100%;
+}

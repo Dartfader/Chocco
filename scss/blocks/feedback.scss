@@ -9,8 +9,8 @@
   width: 50%;
   height: 50%;
   left: 0;
-  top: 100%;
-  transform: translateY(-50%);
+  bottom: -9%; 
+  z-index: 20;
   background: url(../img/fruits__feedback.png) left bottom no-repeat;
 }
 .feedback::before {
@@ -25,17 +25,27 @@
   max-width: 940px;
   flex: 1;
 }
+.feedback__card {
+
+}
+.section__title-feedback {
+  text-transform: uppercase;
+  font-size:40pt;
+  color:$black;
+  margin: 1rem 1rem 4.4375rem 1rem;
+  text-align: center;
+}
 
 .feedback__list {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5%;
 
 }
 .feedback__item {
   display: flex;
-  margin-bottom: 5%;
+  padding-left: 5rem;
+  margin-bottom: 2rem;
 }
 .feedback__left {
   margin-right:25px;
@@ -52,7 +62,8 @@
   position: relative;
 }
 .feedback__text {
-  width: 50%;
+  width: 60%;
+  color: #707070;
 }
 
 .feedback__avatars {

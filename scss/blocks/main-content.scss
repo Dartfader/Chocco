@@ -1,19 +1,18 @@
 //Оформление основного контента 1й секции
 .main-content {
     display: flex;
-
+    flex: 1;
+    align-items: center;
 }
 
 .left-content {
-
     width: 550px;
-    height: 100%;
 }
 .main-content__title {
     color: white;
     text-transform: uppercase;
-    font-size:40pt;
-    margin-top: 76px;
+    font-size:48px;
+
 }
 .left-content__h2 {
     color: white;

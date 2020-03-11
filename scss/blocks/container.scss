@@ -24,21 +24,24 @@ img {
 .section{
     position: relative;
   height:100%;
-  min-height:600px;
+  min-height:650px;
   width: 100%;
   background-color: $blue;
+  background-image: url(../img/decor__hero.png);
+  background-repeat: no-repeat;
+  background-position: bottom  right;
 
 }
 
 .container {
-  //position: relative;
+
   display: flex;
   flex-direction: column;
-  //overflow: hidden;
+  justify-content: center;
   margin: auto;
   max-width: 940px;
   min-width: 300px;
   height: 100%;
-  //position: relative;
+
   z-index: 10;
 }
