@@ -5,26 +5,64 @@
 .team__title {
   text-align: center;
 }
+.team__accordeon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .team__list {
   display: flex;
   justify-content: space-between;
-
 }
 .team__picture {
-  height: 290px;
-  width: 230px;
+  height: 18.125rem;
+  width: 13.75rem;
 }
-.team__picture:hover {
-  background-color: #1f7c15;
-  height: 290px;
-  width: 230px;
-}
-.team__hidden {
-  height:0;
-  overflow: hidden;
-}
+
+
+
+
+
 
 .team-pic {
   height:100%;
   width: 100%;
+}
+.team__name {
+  position: relative;
+  text-align: center;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  font-size: 21px;
+  font-weight: bold;
+}
+//.team__content{
+//  position:relative;
+//  height: 4rem;
+//  width:4rem;
+//
+//}
+.team__hidden {
+  display: none;
+}
+//.team__content:hover .team__hidden {
+//  display:block;
+//  position:absolute;
+//  background: #c6f7ff;
+//  top: 50%;
+//  width: 50%;
+//  z-index:9999;
+//}
+.team__name::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 4px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-right-width: 4.5px;
+  border-left-width: 4.5px;
+  border-top-color: #365a49;
+  border-bottom-width: 0;/* Добавляем треугольник */
 }
