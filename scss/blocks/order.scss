@@ -1,0 +1,16 @@
+.container.container__order {
+  flex-direction: row;
+}
+
+.left__form {
+  display: flex;
+  flex: 1;
+}
+.right__form {
+  display: flex;
+  flex: 1;
+}
+.order__form__row {
+  display: flex;
+  background: #707070;
+}

@@ -3,7 +3,6 @@
 .header {
     display: flex;
     align-items: center;
-    margin-top: 1rem;
     z-index: 20;
 }
 .nav {
@@ -20,7 +19,7 @@
 .nav__link {
     display: flex;
     align-items: center;
-    color: white;
+    color: $white;
     text-decoration: none;
 }
 
@@ -36,7 +35,7 @@
     margin-right: 0.3rem;
 }
 .nav__item {
-    color: white;
+    color: $white;
     padding: 15px;
    list-style: none;
     font-size: 18px;

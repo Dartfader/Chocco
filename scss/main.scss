@@ -12,12 +12,15 @@
 @import "./layout/reset style";
 @import "./blocks/container";
 @import "./blocks/decoration";
-@import "./blocks/header";
-@import "./blocks/main-content";
-@import "./blocks/features";
+@import "./blocks/hero";
+@import "./blocks/hero-header";
+@import "./blocks/hero-content";
+@import "blocks/hero-features";
 @import "./blocks/about";
 @import "./blocks/feedback";
 @import "./blocks/team";
+@import "./blocks/menu";
+@import "./blocks/order";
 @import "./layout/fonts";
 
 

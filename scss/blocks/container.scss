@@ -26,10 +26,10 @@ img {
   height:100%;
   min-height:650px;
   width: 100%;
-  background-color: $blue;
-  background-image: url(../img/decor__hero.png);
-  background-repeat: no-repeat;
-  background-position: bottom  right;
+  //background-color: $blue;
+  //background-image: url(../img/decor__hero.png);
+  //background-repeat: no-repeat;
+  //background-position: bottom  right;
 
 }
 
@@ -44,4 +44,9 @@ img {
   height: 100%;
 
   z-index: 10;
+}
+
+.hero__container {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }

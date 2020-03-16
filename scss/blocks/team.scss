@@ -14,44 +14,53 @@
   display: flex;
   justify-content: space-between;
 }
+.team__item  {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  max-width: 25%;
+  text-align: center;
+
+}
 .team__picture {
   height: 18.125rem;
   width: 13.75rem;
 }
+.team__content {
 
 
-
-
-
-
+}
 .team-pic {
   height:100%;
   width: 100%;
 }
 .team__name {
+  cursor: pointer;
   position: relative;
-  text-align: center;
-  padding: 0.7rem 1rem 0.7rem 1rem;
+  padding: 0.7rem 0.7rem 0.7rem 0.7rem;
   font-size: 21px;
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
-//.team__content{
-//  position:relative;
-//  height: 4rem;
-//  width:4rem;
-//
-//}
-.team__hidden {
+
+.member__hidden {
   display: none;
 }
-//.team__content:hover .team__hidden {
-//  display:block;
-//  position:absolute;
-//  background: #c6f7ff;
-//  top: 50%;
-//  width: 50%;
-//  z-index:9999;
-//}
+.active__member .member__hidden {
+  display: flex;
+  flex-direction: column;
+}
+
+.title__proffesion {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.member__describe {
+  color: #707070;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
 .team__name::after {
   content: "";
   position: absolute;
@@ -63,6 +72,6 @@
   border: 7px solid transparent;
   border-right-width: 4.5px;
   border-left-width: 4.5px;
-  border-top-color: #365a49;
+  border-top-color: $green;
   border-bottom-width: 0;/* Добавляем треугольник */
 }

@@ -15,7 +15,7 @@
 
 }
 .left-content__h2 {
-    color: white;
+    color: $white;
     font-size:15pt;
     width: 73%;
 }
@@ -29,7 +29,7 @@
     background-color: #fff4fb;
     border: 2px solid white;
     border-radius: 60px;
-    color: #1f7c15;
+    color: $green;
 
     @include normalfont;
 
