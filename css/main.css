@@ -885,23 +885,92 @@ a.header__logo {
   padding-top: 1rem;
 }
 
+.order {
+  background: url(../img/order/orderbackground.png) center center/cover no-repeat;
+}
+
 .container.container__order {
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.left__form {
+.container__title__green {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 700;
+  color: #365a49;
+  margin: 1rem 1rem 4.4375rem 1rem;
+  text-align: center;
+}
+
+.order__form {
   display: flex;
+  justify-content: space-between;
+}
+
+.order__col {
+  width: calc(100%/2 - 0.2rem);
+}
+
+.order__row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.8rem;
+}
+
+.order__label {
+  margin-left: 1.5rem;
   flex: 1;
 }
 
-.right__form {
-  display: flex;
-  flex: 1;
+.order__label__title {
+  font-size: 18px;
 }
 
-.order__form__row {
+.order__label__input {
+  width: 100%;
+  padding: 0.725rem;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+}
+
+.order__textarea {
+  width: 100%;
+  padding: 0.725rem;
+  height: 11.25rem;
+  resize: none;
+  border: none;
+}
+
+.order__buttons {
   display: flex;
-  background: #707070;
+}
+
+.order__button {
+  text-decoration: none;
+  padding: 1.125rem 2.125rem 0.875rem 2.125rem;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 19%/50%;
+  font-size: 1.1875rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: #365a49;
+  color: white;
+  cursor: pointer;
+}
+
+.order__button-clear {
+  border: none;
+  background: none;
+  color: #365a49;
+  cursor: pointer;
+}
+
+.contacts {
+  background: url(../img/contacts/map.png) center center/cover no-repeat;
+  min-height: 743px;
 }
 
 @font-face {

@@ -310,20 +310,98 @@
 
     <section class="section order">
         <div class="container container__order">
-            <h1 class="container__title container__title__green"></h1>
-           <div class="left__form">
-               <form action="/login" method="post">
-                    <div class="order__form__row">
-                        <label class="order__form__block" for="username">Имя пользователя</label>
-                        <input type="text" name="username" id="username">
-                        <label for="username">Телефон</label>
-                        <input type="text" name="username" id="username">
+            <h1 class="container__title container__title__green">Закажите доставку</h1>
+            <form action="" class="order__form">
+                <div class="order__col">
+                    <div class="order__row">
+                        <label  class="order__label">
+                            <span class="order__label__title">Имя</span>
+                            <input type="text" class="order__label__input">
+                        </label>
+                        <label  class="order__label">
+                            <span class="order__label__title">Имя</span>
+                            <input type="text" class="order__label__input">
+                        </label>
                     </div>
+                    <div class="order__row">
+                        <label  class="order__label">
+                            <span class="order__label__title">Улица</span>
+                            <input type="text" class="order__label__input">
+                        </label>
+                    </div>
+                    <div class="order__row">
+                        <label  class="order__label">
+                            <span class="order__label__title">Дом</span>
+                            <input type="text" class="order__label__input">
+                        </label>
+                        <label  class="order__label">
+                            <span class="order__label__title">Корпус</span>
+                            <input type="text" class="order__label__input">
+                        </label>
+                        <label  class="order__label">
+                            <span class="order__label__title">Квартира</span>
+                            <input type="text" class="order__label__input">
+                        </label>
+                        <label  class="order__label">
+                            <span class="order__label__title">Этаж</span>
+                            <input type="text" class="order__label__input">
+                        </label>
+                    </div>
+                </div>
+                <div class="order__col">
+                    <div class="order__row">
+                        <label  class="order__label">
+                            <span class="order__label__title">Комментарий</span>
+                            <textarea name="comment"  class="order__textarea">
+                            </textarea>
+                        </label>
+                    </div>
+                    <div class="order__row">
+                        <label  class="order__label">
+                            <input type="radio" value="" class="order__radio__button">
+                            <span class="order__label__title">Оплата по карте</span>
 
-               </form>
-           </div>
-            <div class="right__form">
+                        </label>
+                        <label  class="order__label">
+                            <input type="radio" value="" class="order__radio__button">
+                            <span class="order__label__title">Оплата по карте</span>
+
+                        </label>
+                    </div>
+                    <div class="order__row">
+                        <label  class="order__label order__checkbox">
+                            <input type="checkbox" class="order__label__checkbox">
+                            <div class="order__label__decor"></div>
+                            <span class="order__label__title">Не перезванивать</span>
+                        </label>
+                    </div>
+                    <div class="order__row">
+                        <label  class="order__label order__buttons">
+                            <button type="submit" class="order__button">Заказать</button>
+                            <button type="reset" class="order__button-clear">Очистить</button>
+                        </label>
+                    </div>
+                </div>
+            </form>
             </div>
+
+    </section>
+
+    <section class="section contacts">
+        <div class="container">
+            <footer class="contacts__footer">
+                <div class="footer__info">
+                    <span class="location">Москва, ул.Новый Арбат, д.31/12</span>
+                </div>
+                <div class="footer__icons">
+                    <ul class="social__icons">
+                        <li class="icon__item"></li>
+                        <li class="icon__item"></li>
+                        <li class="icon__item"></li>
+                        <li class="icon__item"></li>
+                    </ul>
+                </div>
+            </footer>
         </div>
     </section>
 </div>
