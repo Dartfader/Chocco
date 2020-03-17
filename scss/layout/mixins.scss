@@ -9,3 +9,9 @@
 @mixin Aleg {
   font-family:'Alegreya Sans', sans-serif;
 }
+
+@mixin tablets {
+  @media screen and (max-width:$tablets) {
+    @content;
+  }
+}

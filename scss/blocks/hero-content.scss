@@ -1,26 +1,77 @@
 //Оформление основного контента 1й секции
+
+.hero {
+    //position: relative;
+    //height:100%;
+    //min-height:650px;
+    //width: 100%;
+    background-color: $blue;
+    background-image: url(../img/decor__hero.png);
+    background-repeat: no-repeat;
+    background-position: bottom  right;
+    @include tablets {
+        min-height: 1000px;
+    }
+}
+
 .main-content {
     display: flex;
     flex: 1;
     align-items: center;
+    @include tablets {
+        flex-direction: column;
+    }
+
+
+
 }
 
 .left-content {
     width: 550px;
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+        width: 656px;
+        }
+
 }
 .main-content__title {
     color: white;
     text-transform: uppercase;
     font-size:48px;
+    @include tablets {
+        font-size:48px;
+        text-align: center;
+    }
 
 }
 .left-content__h2 {
     color: $white;
     font-size:15pt;
     width: 73%;
+    @include tablets {
+            text-align: center;
+            width: 52%;
+        }
 }
 
-
+.hero__bars {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 459px;
+    width: 100%;
+    bottom: 2%;
+    top: 3%;
+    z-index: 10;
+    @include tablets {
+        order: -1;
+        width: 70%;
+    }
+}
 
 .main-content__button{
     display: block;
@@ -30,11 +81,16 @@
     border: 2px solid white;
     border-radius: 60px;
     color: $green;
+    margin-left: 0;
 
     @include normalfont;
-
+    @include tablets {
+    display: block;
+         margin-left: 0;
+        margin-right:0;
+}
     font-size: 19pt;
     padding:14px 39px 15px 39px;
-    margin-left: 0;
+
 }
 

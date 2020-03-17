@@ -24,13 +24,14 @@
 }
 .team__picture {
   height: 18.125rem;
-  width: 13.75rem;
+  width: 100%;
 }
 .team__content {
 
 
 }
 .team-pic {
+  object-fit: cover;
   height:100%;
   width: 100%;
 }
