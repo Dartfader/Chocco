@@ -4,7 +4,10 @@
   width: 51%;
   margin-bottom: 2rem;
   @include tablets {
+    display: none;
     align-items: center;
+    width: 80%;
+    margin: auto;
   }
 }
 .hero__features-list {

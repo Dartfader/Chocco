@@ -1,10 +1,7 @@
 //Оформление основного контента 1й секции
 
 .hero {
-    //position: relative;
-    //height:100%;
-    //min-height:650px;
-    //width: 100%;
+
     background-color: $blue;
     background-image: url(../img/decor__hero.png);
     background-repeat: no-repeat;
@@ -13,13 +10,17 @@
         min-height: 1000px;
     }
 }
-
+.hero__container {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
 .main-content {
     display: flex;
     flex: 1;
     align-items: center;
     @include tablets {
         flex-direction: column;
+
     }
 
 
@@ -33,7 +34,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 5rem;
-        width: 656px;
+        width: 100%;
         }
 
 }
@@ -49,7 +50,7 @@
 }
 .left-content__h2 {
     color: $white;
-    font-size:15pt;
+    font-size:21px;
     width: 73%;
     @include tablets {
             text-align: center;
@@ -70,10 +71,20 @@
     @include tablets {
         order: -1;
         width: 70%;
+        position: relative;
+
     }
 }
-
-.main-content__button{
+.hero__bars:before {
+    @include tablets {
+        content: url(../img/hero/leafs768.png);
+        position: absolute;
+        display: block;
+        transform: translateY(16%);
+        z-index: 11;
+    }
+}
+.main-content__button {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -81,7 +92,7 @@
     border: 2px solid white;
     border-radius: 60px;
     color: $green;
-    margin-left: 0;
+    margin-left:0;
 
     @include normalfont;
     @include tablets {
@@ -89,8 +100,8 @@
          margin-left: 0;
         margin-right:0;
 }
-    font-size: 19pt;
-    padding:14px 39px 15px 39px;
+    font-size: 21px;
+    padding: 12px 20px 12px 21px;
 
 }
 

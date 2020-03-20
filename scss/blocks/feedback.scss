@@ -1,6 +1,9 @@
 
 .feedback {
    background: $white;
+  @include tablets {
+    min-height: 940px;
+  }
  }
 .feedback::after{
   content: "";
@@ -24,6 +27,9 @@
   justify-content: center;
   max-width: 940px;
   flex: 1;
+  @include tablets {
+    max-width: 720px;
+  }
 }
 .feedback__card {
 
@@ -46,6 +52,12 @@
   display: flex;
   padding-left: 5rem;
   margin-bottom: 2rem;
+  @include tablets {
+    margin: auto;
+    display: initial;
+    padding: 0;
+  width: inherit;
+  }
 }
 .feedback__left {
   margin-right:25px;
@@ -53,8 +65,23 @@
 .feedback__photo {
   width: 260px;
   height: 270px;
+  @include tablets {
+    width: 148px;
+    height: 132px;
+    margin: auto;
+  }
+}
+
+.feedback__info {
+  @include tablets { display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+  }
 
 }
+
 .feedback__photo-img {
   width: 100%;
   height: 100%;
@@ -64,6 +91,9 @@
 .feedback__text {
   width: 60%;
   color: #707070;
+  @include tablets {
+    width: 90%;
+  }
 }
 
 .feedback__avatars {
@@ -74,10 +104,17 @@
   border: 0.5rem solid transparent;
   border-radius: 50%;
   overflow: hidden;
+  @include tablets {
+    border: 0.2rem solid transparent;
+  }
 }
 .avatar__image {
   height: 64px;
   width: 64px;
+  @include tablets {
+    height: 43px;
+    width: 43px;
+  }
 }
 .avatar-img {
   width: 100%;

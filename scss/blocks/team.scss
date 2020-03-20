@@ -1,9 +1,14 @@
 .team {
   background: $white;
   border: 2px solid grey;
+  @include tablets {
+    min-height: 850px;
+    width: 100%;
+  }
 }
 .team__title {
   text-align: center;
+  font-size: 48px;
 }
 .team__accordeon {
   display: flex;
@@ -13,6 +18,11 @@
 .team__list {
   display: flex;
   justify-content: space-between;
+  @include tablets {
+    flex-direction: column;
+    align-items: center;
+
+  }
 }
 .team__item  {
   flex-direction: column;
@@ -20,11 +30,24 @@
   align-items: center;
   max-width: 25%;
   text-align: center;
+  @include tablets {
+
+  }
 
 }
 .team__picture {
   height: 18.125rem;
   width: 100%;
+  @include tablets {
+    display: none;
+
+  }
+}
+.active__member .team__picture {
+  @include tablets {
+    display: flex;
+  }
+
 }
 .team__content {
 
@@ -42,6 +65,10 @@
   font-size: 21px;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  @include tablets {
+    font-size: 18px;
+    order: -1;
+  }
 }
 
 .member__hidden {
@@ -61,12 +88,28 @@
   color: #707070;
   margin-top: 0.7rem;
   margin-bottom: 0.7rem;
+
 }
 .team__name::after {
   content: "";
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  margin-left: 4px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-right-width: 4.5px;
+  border-left-width: 4.5px;
+  border-top-color: $green;
+  border-bottom-width: 0;/* Добавляем треугольник */
+}
+.active__member .team__name::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: rotate(180deg);
   margin-left: 4px;
   height: 0;
   width: 0;
