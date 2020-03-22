@@ -19,7 +19,6 @@
 
 <div class="wrapper">
     <section class="section hero">
-
         <div class="container hero__container">
             <header class="header hero__header">
 
@@ -41,6 +40,12 @@
                     <a href="#" class="nav__phone">
                         8  800 903 90 90</a>
                 </nav>
+                <button class="burger__button">
+                    <svg class="burger__icon">
+                        <use xlink:href="img/icons/sprite/sprite.svg#burger"></use>
+                    </svg>
+                </button>
+
             </header>
             <div class="main-content hero__content">
                 <div class="left-content">
@@ -288,9 +293,6 @@
                 <li class="menu__item menu__active menu__milk ">
                         <a href="#" class="menu__link ">
                             <div class="menu__item__title__text">Батончики с молоком</div>
-                            <button class="button__close">
-
-                            </button>
                         </a>
                     <div class="menu__item__content">
                         <p class="menu__item__text">
@@ -301,11 +303,16 @@
                             Бабуля, конечно, за такую еду не похвалит, но кто её будет спрашивать – никто.
                             Надо бы, кстати, бабулю поздравить с днём Победы.
                         </p>
+                        <a href="#" class="menu__item__close">
+                            <svg class="close__icon">
+                                <use xlink:href="img/icons/sprite/sprite.svg#close"></use>
+                            </svg>
+                        </a>
                     </div>
                 </li>
                 <li class="menu__item  menu__honey">
                     <a href="#" class="menu__link ">
-                        <div class="menu__item__title__text">Батончики с молоком</div>
+                        <div class="menu__item__title__text">С медом и фруктами</div>
                     </a>
                     <div class="menu__item__content">
                         <p class="menu__item__text">
@@ -316,11 +323,16 @@
                             Бабуля, конечно, за такую еду не похвалит, но кто её будет спрашивать – никто.
                             Надо бы, кстати, бабулю поздравить с днём Победы.
                         </p>
+                        <a href="#" class="menu__item__close">
+                            <svg class="close__icon">
+                                <use xlink:href="img/icons/sprite/sprite.svg#close"></use>
+                            </svg>
+                        </a>
                     </div>
                 </li>
                 <li class="menu__item  menu__berries">
                     <a href="#" class="menu__link ">
-                        <div class="menu__item__title__text">Батончики с молоком</div>
+                        <div class="menu__item__title__text">Дикие ягоды</div>
                     </a>
                     <div class="menu__item__content">
                         <p class="menu__item__text">
@@ -330,7 +342,24 @@
                             Как классно, что можно питаться полезно и вкусно, а не как попало.
                             Бабуля, конечно, за такую еду не похвалит, но кто её будет спрашивать – никто.
                             Надо бы, кстати, бабулю поздравить с днём Победы.
+                            Рекомендуем употреблять батончики вместе с кокосовым или миндальным молоком.
+                            Так и вкуснее, и полезнее. Ну чего ещё хотеть от жизни?
+                            Батончик – он твой лучший друг и радует всех вокруг.
+                            Как классно, что можно питаться полезно и вкусно, а не как попало.
+                            Бабуля, конечно, за такую еду не похвалит, но кто её будет спрашивать – никто.
+                            Надо бы, кстати, бабулю поздравить с днём Победы.
+                            Рекомендуем употреблять батончики вместе с кокосовым или миндальным молоком.
+                            Так и вкуснее, и полезнее. Ну чего ещё хотеть от жизни?
+                            Батончик – он твой лучший друг и радует всех вокруг.
+                            Как классно, что можно питаться полезно и вкусно, а не как попало.
+                            Бабуля, конечно, за такую еду не похвалит, но кто её будет спрашивать – никто.
+                            Надо бы, кстати, бабулю поздравить с днём Победы.
                         </p>
+                        <a href="#" class="menu__item__close">
+                            <svg class="close__icon">
+                                <use xlink:href="img/icons/sprite/sprite.svg#close"></use>
+                            </svg>
+                        </a>
                     </div>
                 </li>
             </ul>
@@ -386,26 +415,26 @@
                         </label>
                     </div>
                     <div class="order__row">
-                        <label  class="order__label">
+                        <label  class="order__label button__decor">
                             <input type="radio" value="" class="order__radio__button">
-                            <span class="order__label__title">Оплата по карте</span>
+                            <span class="order__label__title ">Потребуется сдача</span>
 
                         </label>
-                        <label  class="order__label">
+                        <label  class="order__label button__decor">
                             <input type="radio" value="" class="order__radio__button">
-                            <span class="order__label__title">Оплата по карте</span>
+                            <span class="order__label__title ">Оплата по карте</span>
 
                         </label>
                     </div>
                     <div class="order__row">
-                        <label  class="order__label order__checkbox">
+                        <label  class="order__label order__checkbox button__decor">
                             <input type="checkbox" class="order__label__checkbox">
                             <div class="order__label__decor"></div>
                             <span class="order__label__title">Не перезванивать</span>
                         </label>
                     </div>
                     <div class="order__row">
-                        <label  class="order__label order__buttons">
+                        <label  class="order__label order__buttons button__decor">
                             <button type="submit" class="order__button">Заказать</button>
                             <button type="reset" class="order__button-clear">Очистить</button>
                         </label>
@@ -417,22 +446,46 @@
     </section>
 
     <section class="section contacts">
-        <div class="container">
+
             <footer class="contacts__footer">
-                <div class="footer__info">
-                    <span class="location">Москва, ул.Новый Арбат, д.31/12</span>
+                <div class="footer__container">
+                    <div class="footer__info">
+                        <span class="location">Москва, ул.Новый Арбат, д.31/12</span>
+                        <a href="#" class="nav__phone nav__phone__footer">
+                            <svg class="phone__icon__footer">
+                                <use xlink:href="img/icons/sprite/sprite.svg#phone"></use>
+                            </svg>
+                            8  800 903 90 90
+                        </a>
+                    </div>
+                    <div class="footer__icons">
+                        <ul class="social__icons">
+                            <li class="icon__item">
+                                <svg class="social__icon">
+                                    <use xlink:href="img/icons/sprite/socialsprite.svg#in"></use>
+                                </svg>
+                            </li>
+                            <li class="icon__item"><svg class="social__icon">
+                                <use xlink:href="img/icons/sprite/socialsprite.svg#tv"></use>
+                            </svg></li>
+                            <li class="icon__item">
+                                <svg class="social__icon">
+                                    <use xlink:href="img/icons/sprite/socialsprite.svg#vk"></use>
+                                </svg>
+                            </li>
+                            <li class="icon__item">
+                                <svg class="social__icon">
+                                    <use xlink:href="img/icons/sprite/socialsprite.svg#f"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="footer__icons">
-                    <ul class="social__icons">
-                        <li class="icon__item"></li>
-                        <li class="icon__item"></li>
-                        <li class="icon__item"></li>
-                        <li class="icon__item"></li>
-                    </ul>
-                </div>
+
             </footer>
-        </div>
+
     </section>
+
 </div>
 
 

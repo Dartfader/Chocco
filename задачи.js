@@ -33,6 +33,8 @@
 //     console.log(i);
 // }
 
+//массивы
+
 // var mass= ['Привет', 'Sergey'] ;
 // mass.push('я изучаю','javascript');
 // console.log(mass.length);
@@ -41,3 +43,33 @@
 //     console.log(mass[i]);
 // }
 
+// var massive=[1,20,50,30,700,600,90,80,4];
+// for (let i=0;i<massive.length;i++) {
+//     if (massive[i]>100) {
+//         console.log(massive[i]);
+//     }
+// }
+
+var f = {
+    name:'Vlad',
+    lastName:'Matrenin',
+    age:24
+};
+
+f.location='Ulyanovsk';
+for (let key in f) {
+    console.log(f[key]);
+}
+
+
+
+
+
+function hello(human) {
+
+    var result= 'Привет, меня зовут ИМЯ ФАМИЛИЯ и мне ВОЗРАСТ лет!;
+        
+    return result;
+};
+
+// +name+lastName+'и мне'+age+'лет!'

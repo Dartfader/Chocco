@@ -354,6 +354,13 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
 *, :after, :before {
   box-sizing: inherit;
 }
@@ -457,8 +464,10 @@ img {
 }
 @media screen and (max-width: 768px) {
   .header {
+    justify-content: space-between;
     flex: 0;
     z-index: 20;
+    width: 90vw;
   }
 }
 
@@ -499,6 +508,21 @@ img {
   margin-right: 0.3rem;
 }
 
+.burger__button {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .burger__button {
+    display: initial;
+  }
+}
+
+.burger__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: white;
+}
+
 .nav__item {
   color: white;
   padding: 15px;
@@ -513,6 +537,12 @@ img {
 
 a.header__logo {
   margin-right: 1rem;
+}
+@media screen and (max-width: 768px) {
+  a.header__logo {
+    padding-left: 1rem;
+    margin-right: 0;
+  }
 }
 
 .hero {
@@ -1081,8 +1111,6 @@ a.header__logo {
 .menu__item {
   display: flex;
   color: white;
-  /* width: 6.25rem; */
-  /* height: 100%; */
 }
 
 .menu__active .menu__item__content {
@@ -1091,27 +1119,45 @@ a.header__logo {
 
 .menu__item__content {
   position: relative;
-  max-width: 21rem;
+  max-width: 32rem;
   width: 0;
   overflow: hidden;
-  transition: width 1s;
+  transition: width 0.5s;
   background-color: rgba(38, 33, 43, 0.79);
 }
 
 .menu__item__text {
   max-width: 89%;
-  height: 75%;
+  height: 80%;
   padding: 1rem;
+}
+
+.close__icon {
+  z-index: 5;
+  top: 2%;
+  right: 5%;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  transition: 0.3s;
+  fill: #fffff9;
 }
 
 .order {
   background: url(../img/order/orderbackground.png) center center/cover no-repeat;
 }
+@media screen and (max-width: 768px) {
+  .order {
+    min-height: 970px;
+  }
+}
 
-.container.container__order {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+@media screen and (max-width: 768px) {
+  .container.container__order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .container__title__green {
@@ -1122,10 +1168,23 @@ a.header__logo {
   margin: 1rem 1rem 4.4375rem 1rem;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .container__title__green {
+    text-align: center;
+  }
+}
 
 .order__form {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .order__form {
+    flex-direction: column;
+    max-width: 34rem;
+    justify-content: center;
+    margin: 0 auto;
+  }
 }
 
 .order__col {
@@ -1153,6 +1212,12 @@ a.header__logo {
   font-family: "Open Sans", sans-serif;
   border: none;
 }
+@media screen and (max-width: 768px) {
+  .order__label__input {
+    font-size: 0.875rem;
+    padding: 0.3125rem 0.6875rem;
+  }
+}
 
 .order__textarea {
   width: 100%;
@@ -1160,6 +1225,11 @@ a.header__logo {
   height: 11.25rem;
   resize: none;
   border: none;
+}
+@media screen and (max-width: 768px) {
+  .order__textarea {
+    height: 5.625rem;
+  }
 }
 
 .order__buttons {
@@ -1187,9 +1257,85 @@ a.header__logo {
   cursor: pointer;
 }
 
+.order__radio__button {
+  display: none;
+  position: relative;
+}
+
+.button__decor .order__label__title:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.625rem;
+  width: 1.625rem;
+  background: #fff;
+  border-radius: 50%;
+  content: "";
+}
+
+.button__decor .order__label__title:after {
+  position: absolute;
+  top: 0.4375rem;
+  left: 0.4375rem;
+  content: "";
+  height: 0.8125rem;
+  width: 0.8125rem;
+  border-radius: 50%;
+  background-color: #365a49;
+}
+
+.order__label .button__decor {
+  position: relative;
+  display: flex;
+  margin-right: 1.5625rem;
+  align-items: center;
+  /* position: relative; */
+  padding-left: 1.875rem;
+}
+
 .contacts {
   background: url(../img/contacts/map.png) center center/cover no-repeat;
   min-height: 743px;
+  position: relative;
+}
+
+.contacts__footer {
+  position: absolute;
+  height: 5rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #ffffff;
+}
+
+.footer__container {
+  display: flex;
+}
+
+.footer__info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.nav__phone__footer {
+  color: black;
+}
+
+.footer__icons {
+  flex: 1;
+}
+
+.phone__icon__footer {
+  width: 15px;
+  height: 15px;
+  fill: black;
+}
+
+.social__icon {
+  width: 15px;
+  height: 15px;
+  fill: black;
 }
 
 @font-face {

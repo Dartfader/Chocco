@@ -1,4 +1,37 @@
 .contacts {
   background: url(../img/contacts/map.png) center center/cover no-repeat;
   min-height: 743px;
+  position: relative;
+}
+.contacts__footer {
+  position: absolute;
+  height: 5rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #ffffff;
+}
+.footer__container {
+  display: flex;
+}
+.footer__info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.nav__phone__footer {
+  color:$black;
+}
+.footer__icons {
+  flex: 1;
+}
+.phone__icon__footer {
+  width: 15px;
+  height: 15px;
+  fill: $black;
+}
+.social__icon {
+  width: 15px;
+  height: 15px;
+  fill: $black;
 }

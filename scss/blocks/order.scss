@@ -1,10 +1,16 @@
 .order {
   background: url(../img/order/orderbackground.png) center center/cover no-repeat;
+@include tablets {
+  min-height: 970px;
+}
 }
 .container.container__order {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  @include  tablets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
 }
 .container__title__green {
     text-transform: uppercase;
@@ -13,10 +19,21 @@
     color: #365a49;
     margin: 1rem 1rem 4.4375rem 1rem;
     text-align: center;
+  @include tablets {
+    text-align: center;
+  }
 }
 .order__form {
   display: flex;
   justify-content: space-between;
+  @include  tablets {
+
+    flex-direction: column;
+    max-width: 34rem;
+
+    justify-content: center;
+    margin: 0 auto;
+  }
 }
 
 .order__col {
@@ -46,6 +63,10 @@
   font-family: "Open Sans", sans-serif;
 
   border: none;
+  @include tablets {
+    font-size: 0.875rem;
+    padding: 0.3125rem 0.6875rem;
+  }
 }
 .order__textarea {
   width: 100%;
@@ -53,6 +74,9 @@
   height: 11.25rem ;
   resize: none;
   border: none;
+  @include tablets {
+    height: 5.625rem;
+  }
 
 }
 .order__buttons {
@@ -76,4 +100,43 @@
   background: none;
   color: #365a49;
   cursor: pointer;
+}
+.order__radio__button {
+  display: none;
+  position: relative;
+}
+.order__radio__button:before {
+
+}
+.order__label__checkbox:checked .order__radio__button:after {
+
+}
+
+.button__decor .order__label__title:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.625rem;
+  width: 1.625rem;
+  background: #fff;
+  border-radius: 50%;
+  content: "";
+}
+.button__decor .order__label__title:after {
+  position: absolute;
+  top: 0.4375rem;
+  left: 0.4375rem;
+  content: "";
+  height: 0.8125rem;
+  width: 0.8125rem;
+  border-radius: 50%;
+  background-color: #365a49;
+}
+.order__label .button__decor {
+  position: relative;
+  display: flex;
+  margin-right: 1.5625rem;
+  align-items: center;
+  /* position: relative; */
+  padding-left: 1.875rem;
 }

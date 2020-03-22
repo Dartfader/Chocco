@@ -4,14 +4,7 @@
   background-size: cover;
   min-height: 550px;
 }
-//.menu__container {
-//  display: flex;
-//  flex-direction: row;
-//  min-width: 100%;
-//  /* position: relative; */
-//  justify-content: flex-end;
-//
-//}
+
 .menu__title {
   position: absolute;
   color: $white;
@@ -22,9 +15,6 @@
 }
 .menu__list {
   display: flex;
-  //flex-direction: row;
-  //justify-content: flex-end;
-  //max-height: 100%;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -45,12 +35,6 @@
   background: url(../img/menu/berries.png) center center/cover no-repeat;
 }
 .menu__item__title__text {
-  //max-width: 5rem;
-  //height: 100%;
-  //font-size: 48px;
-  //transform: rotate(180deg);
-  //writing-mode: tb-rl;
-  //width: 8rem;
   display: flex;
   align-items: center;
   width: 6.25rem;
@@ -64,8 +48,6 @@
 .menu__item {
   display: flex;
   color: white;
-  /* width: 6.25rem; */
-  /* height: 100%; */
 
 }
 
@@ -75,15 +57,28 @@
 }
  .menu__item__content {
   position: relative;
-  max-width: 21rem;
+  max-width: 32rem;
   width: 0;
   overflow: hidden;
-   transition: width 1s;
+   transition: width 0.5s;
   background-color: rgba(38, 33, 43, 0.79);
 }
 
 .menu__item__text {
   max-width: 89%;
-  height: 75%;
+  height: 80%;
   padding:1rem;
+}
+.menu__item__close {
+
+}
+.close__icon {
+  z-index: 5;
+  top: 2%;
+  right: 5%;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  transition: 0.3s;
+  fill: #fffff9;
 }
