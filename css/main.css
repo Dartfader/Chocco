@@ -350,6 +350,10 @@ ul, li {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 *, :after, :before {
   box-sizing: inherit;
 }
@@ -515,7 +519,7 @@ a.header__logo {
   background-color: #86c3d7;
   background-image: url(../img/decor__hero.png);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: right;
 }
 @media screen and (max-width: 768px) {
   .hero {
@@ -1030,25 +1034,48 @@ a.header__logo {
 .menu__title {
   position: absolute;
   color: white;
-  top: 30%;
+  top: 5%;
   left: 10%;
   font-size: 48px;
+  text-transform: uppercase;
 }
 
 .menu__list {
   display: flex;
   position: absolute;
   top: 0;
+  bottom: 0;
   right: 0;
 }
 
-.menu__item__title {
-  max-width: 5rem;
+.menu__link {
+  padding-bottom: 2.5rem;
+  color: #ffffff;
+  display: block;
+}
+
+.menu__milk .menu__link {
+  background: url(../img/menu/milk.png) no-repeat;
+}
+
+.menu__honey .menu__link {
+  background: url(../img/menu/honey.png) center center/cover no-repeat;
+}
+
+.menu__berries .menu__link {
+  background: url(../img/menu/berries.png) center center/cover no-repeat;
+}
+
+.menu__item__title__text {
+  display: flex;
+  align-items: center;
+  width: 6.25rem;
   height: 100%;
   font-size: 48px;
+  font-weight: bold;
+  line-height: 1;
+  writing-mode: vertical-lr;
   transform: rotate(180deg);
-  writing-mode: tb-rl;
-  width: 8rem;
 }
 
 .menu__item {
@@ -1056,26 +1083,25 @@ a.header__logo {
   color: white;
   /* width: 6.25rem; */
   /* height: 100%; */
-  background: #707070;
+}
+
+.menu__active .menu__item__content {
+  width: 50vw;
 }
 
 .menu__item__content {
   position: relative;
   max-width: 21rem;
-  font-size: 16px;
   width: 0;
   overflow: hidden;
-  background-color: #826985;
-}
-
-.menu__active .menu__item__content {
-  width: initial;
+  transition: width 1s;
+  background-color: rgba(38, 33, 43, 0.79);
 }
 
 .menu__item__text {
-  max-width: 76%;
+  max-width: 89%;
   height: 75%;
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 .order {
