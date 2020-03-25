@@ -62,14 +62,12 @@ for (let key in f) {
 }
 
 
-
-
-
 function hello(human) {
 
-    var result= 'Привет, меня зовут ИМЯ ФАМИЛИЯ и мне ВОЗРАСТ лет!;
-        
-    return result;
+    var result= 'Привет, меня зовут'+' '+human.name +' и мне'+' '+human.age+' лет!';
+     return result;
 };
 
-// +name+lastName+'и мне'+age+'лет!'
+let result=hello(f);
+console.log(result);
+
