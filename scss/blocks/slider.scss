@@ -37,14 +37,39 @@
 }
 
 .hover__item {
-  /* position: absolute; */
-  background: aquamarine;
-  width: 5rem;
-  height: 5rem;
-  /* top: 0; */
-  /* left: 0; */
+  width: 5.425rem;
+  height: 5.425rem;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #86c3d7;
+  padding: 0.6875rem 1.25rem;
+
 }
 
+.chocolate__block {
+  display: none;
+  width: 16.875rem;
+  position: absolute;
+  top: 0;
+  left: 5.425rem;
+  background-color: #fff;
+  /* opacity: 0.95; */
+  padding: 1.5625rem 1.25rem 1.5625rem 1.8625rem;
+  /* border: 0.0625rem solid #eee; */
+  border-radius: 5px;
+}
+.slider__icon {
+  width: 3.1875rem;
+  height: 3.1875rem;
+  fill: #fff;
+  margin-bottom: 0.1875rem;
+}
+
+.hover__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
 .slider__title {
   font-size: 46px;
   text-transform: uppercase;

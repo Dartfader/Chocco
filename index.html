@@ -25,22 +25,22 @@
                 <a href="#" class="header__logo">
                     <img class="header__logo-img" src="img/logo.png" />
                 </a>
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Батончики</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Команда</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Меню</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Как мы работаем</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                <nav class="nav overlay__nav overlay__open">
+                    <ul class="nav__list overlay__list">
+                        <li class="nav__item overlay__item"><a href="#" class="nav__link">О нас</a></li>
+                        <li class="nav__item overlay__item"><a href="#" class="nav__link">Батончики</a></li>
+                        <li class="nav__item overlay__item"><a href="#" class="nav__link">Команда</a></li>
+                        <li class="nav__item overlay__item"><a href="#" class="nav__link">Меню</a></li>
+                        <li class="nav__item overlay__item"><a href="#" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item overlay__item"><a href="#" class="nav__link">Как мы работаем</a></li>
+                        <li class="nav__item overlay__item"><a href="#" class="nav__link">Контакты</a></li>
 
                     </ul>
                     <img src="./img/icons/phone.svg" alt="" class="phone-icon">
                     <a href="#" class="nav__phone">
                         8  800 903 90 90</a>
                 </nav>
-                <button class="burger__button">
+                <button class="burger__button" id="toggle">
                     <svg class="burger__icon">
                         <use xlink:href="img/icons/sprite/sprite.svg#burger"></use>
                     </svg>
@@ -162,9 +162,47 @@
                         </div>
                     </div>
                     <div class="slider__right__content">
-                        <div class="hover__item">
-                            <div class="logo"></div>
-                            <span class="hover__title"></span>
+                        <div class="chocolate__bar">
+                            <div class="hover__item">
+                                <svg class="slider__icon">
+                                    <use xlink:href="img/icons/sprite/sprite.svg#chocolate-bar"></use>
+                                </svg>
+                                <span class="hover__title">Состав</span>
+                            </div>
+                            <div class="chocolate__block">
+                                <ul class="chocolate__list">
+                                    <li class="chocolate__item">
+                                    <div class="item__icon"></div>
+                                    <div class="item__text">Виноград</div>
+                                    <div class="item__weight">45г</div>
+                                </li>
+                                    <li class="chocolate__item">
+                                        <div class="item__icon"></div>
+                                        <div class="item__text">Виноград</div>
+                                        <div class="item__weight">45г</div>
+                                    </li>
+                                    <li class="chocolate__item">
+                                        <div class="item__icon"></div>
+                                        <div class="item__text">Виноград</div>
+                                        <div class="item__weight">45г</div>
+                                    </li>
+                                    <li class="chocolate__item">
+                                        <div class="item__icon"></div>
+                                        <div class="item__text">Виноград</div>
+                                        <div class="item__weight">45г</div>
+                                    </li>
+                                    <li class="chocolate__item">
+                                        <div class="item__icon"></div>
+                                        <div class="item__text">Виноград</div>
+                                        <div class="item__weight">45г</div>
+                                    </li>
+                                    <li class="chocolate__item">
+                                        <div class="item__icon"></div>
+                                        <div class="item__text">Виноград</div>
+                                        <div class="item__weight">45г</div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <h3 class="slider__title">
                             Батончик “Гранола
@@ -213,7 +251,6 @@
         <div class="right-arrow"></div>
 
     </section>
-
 
     <section class="section feedback">
         <div class="container feedback__container">
@@ -481,21 +518,21 @@
                     </div>
                     <div class="order__row">
                         <label  class="order__label button__decor">
-                            <input type="radio" value="" class="order__radio__button">
-                            <span class="order__label__title ">Потребуется сдача</span>
-
+                            <input type="radio" name="order__radio" value="" class="order__radio__button">
+                            <div class="order__radio__decor"></div>
+                            <span class="order__label__title order__button-text">Потребуется сдача</span>
                         </label>
                         <label  class="order__label button__decor">
-                            <input type="radio" value="" class="order__radio__button">
-                            <span class="order__label__title ">Оплата по карте</span>
-
+                            <input type="radio"  name="order__radio" value="" class="order__radio__button" checked>
+                            <div class="order__radio__decor"></div>
+                            <span class="order__label__title order__button-text ">Оплата по карте</span>
                         </label>
                     </div>
                     <div class="order__row">
                         <label  class="order__label order__checkbox button__decor">
                             <input type="checkbox" class="order__label__checkbox">
-                            <div class="order__label__decor"></div>
-                            <span class="order__label__title">Не перезванивать</span>
+                            <div class="order__checkbox__decor"></div>
+                            <span class="order__label__title  order__button-text">Не перезванивать</span>
                         </label>
                     </div>
                     <div class="order__row">
@@ -512,7 +549,8 @@
 
     <section class="section contacts">
 
-            <footer class="contacts__footer">
+
+        <footer class="contacts__footer">
                 <div class="footer__container">
                     <div class="footer__info">
                         <span class="location">Москва, ул.Новый Арбат, д.31/12</span>

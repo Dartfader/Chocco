@@ -2,16 +2,17 @@
   background: url(../img/order/orderbackground.png) center center/cover no-repeat;
 @include tablets {
   min-height: 970px;
+  }
 }
-}
+
 .container.container__order {
   @include  tablets {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-
 }
+//Стилизация заголовка
 .container__title__green {
     text-transform: uppercase;
     font-size: 48px;
@@ -23,6 +24,9 @@
     text-align: center;
   }
 }
+//Стилизация заголовка
+
+//Стилизация формы
 .order__form {
   display: flex;
   justify-content: space-between;
@@ -38,6 +42,10 @@
 
 .order__col {
   flex:1;
+  margin-left:1.5rem;
+}
+.order__col:first-child {
+  margin-left: 0;
 }
 
 .order__row {
@@ -49,25 +57,36 @@
 .order__label {
   margin-left: 1.5rem;
   flex: 1;
+  position: relative
+}
 
+.order__label:first-child {
+  margin: 0;
+}
+
+.order__label.button__decor {
+  display: flex;
 }
 
 .order__label__title {
   font-size: 18px;
 }
 
+.order__label__title.order__button-text {
+  margin-left: 0.5rem;
+}
+
 .order__label__input  {
   width: 100%;
   padding: 0.725rem;
-
   font-family: "Open Sans", sans-serif;
-
   border: none;
   @include tablets {
     font-size: 0.875rem;
     padding: 0.3125rem 0.6875rem;
   }
 }
+
 .order__textarea {
   width: 100%;
   padding: 0.725rem;
@@ -77,11 +96,12 @@
   @include tablets {
     height: 5.625rem;
   }
-
 }
+
 .order__buttons {
   display: flex;
 }
+
 .order__button {
   text-decoration: none;
   padding: 1.125rem 2.125rem 0.875rem 2.125rem;
@@ -95,34 +115,61 @@
   color: white;
   cursor: pointer;
 }
+
 .order__button-clear {
   border: none;
   background: none;
   color: #365a49;
   cursor: pointer;
 }
+
 .order__radio__button {
+  position: relative;
   display: none;
+}
+
+.order__radio__decor {
+  height: 20PX;
+  width: 20px;
+  background: white;
+  border: 1px solid  ;
+  border-radius: 50%;
   position: relative;
 }
-.order__radio__button:before {
 
-}
-.order__label__checkbox:checked .order__radio__button:after {
-
-}
-
-.button__decor .order__label__title:before {
+.order__radio__decor:after {
+  content: "";
+  height: 0;
+  width: 0;
+  background: #365a49;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.order__radio__button:checked +.order__radio__decor {
+  border-color: $green;
+}
+
+.order__radio__button:checked +.order__radio__decor:after {
+  height: 10px;
+  width: 10px;
+}
+.order__label__checkbox {
+  display: none;
+}
+.order__checkbox__decor {
+  position: relative;
   top: 0;
   left: 0;
   height: 1.625rem;
   width: 1.625rem;
   background: #fff;
-  border-radius: 50%;
   content: "";
 }
-.button__decor .order__label__title:after {
+.order__checkbox__decor:after {
   position: absolute;
   top: 0.4375rem;
   left: 0.4375rem;
@@ -132,11 +179,23 @@
   border-radius: 50%;
   background-color: #365a49;
 }
-.order__label .button__decor {
-  position: relative;
-  display: flex;
-  margin-right: 1.5625rem;
-  align-items: center;
-  /* position: relative; */
-  padding-left: 1.875rem;
+.order__label__checkbox:checked +.order__checkbox__decor:after {
+  left: 0.5625rem;
+  top: 0.3125rem;
+  width: 0.3125rem;
+  height: 0.625rem;
+  border-radius: 0;
+  background-color: transparent;
+  border: solid #365a49;
+  border-width: 0 0.1875rem 0.1875rem 0;
+  transform: rotate(45deg)
 }
+
+//.order__label .button__decor {
+//  position: relative;
+//  display: flex;
+//  margin-right: 1.5625rem;
+//  align-items: center;
+//  /* position: relative; */
+//  padding-left: 1.875rem;
+//}
