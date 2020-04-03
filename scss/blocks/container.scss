@@ -6,8 +6,9 @@ html {
 }
 body, html {
   height: 100%;
-
 }
+
+
 .wrapper {
   height: 100%;
   width: 100%;
@@ -34,17 +35,17 @@ img {
 }
 
 .container {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
   max-width: 940px;
   min-width: 300px;
+  width: 98%;
   height: 100%;
   z-index: 10;
   @include tablets {
-    max-width: 720px;
+    max-width: 95%;
   }
 }
 

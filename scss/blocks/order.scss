@@ -3,6 +3,7 @@
 @include tablets {
   min-height: 970px;
   }
+
 }
 
 .container.container__order {
@@ -10,13 +11,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 95%;
+  }
+  @include phones {
+    max-width:90%;
   }
 }
 //Стилизация заголовка
 .container__title__green {
-    text-transform: uppercase;
-    font-size: 48px;
-    font-weight: 700;
+   @include section_h1;//Миксин для всех заголовков
     color: #365a49;
     margin: 1rem 1rem 4.4375rem 1rem;
     text-align: center;
@@ -43,6 +46,9 @@
 .order__col {
   flex:1;
   margin-left:1.5rem;
+  @include tablets {
+    margin-left:0;
+  }
 }
 .order__col:first-child {
   margin-left: 0;
@@ -176,14 +182,13 @@
   content: "";
   height: 0.8125rem;
   width: 0.8125rem;
-  border-radius: 50%;
-  background-color: #365a49;
+
 }
 .order__label__checkbox:checked +.order__checkbox__decor:after {
   left: 0.5625rem;
-  top: 0.3125rem;
-  width: 0.3125rem;
-  height: 0.625rem;
+  top: 0.2125rem;
+  width: 0.5125rem;
+  height: 0.825rem;
   border-radius: 0;
   background-color: transparent;
   border: solid #365a49;

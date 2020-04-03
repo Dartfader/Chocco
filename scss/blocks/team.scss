@@ -1,6 +1,5 @@
 .team {
   background: $white;
-  border: 2px solid grey;
   @include tablets {
     min-height: 850px;
     width: 100%;
@@ -8,7 +7,7 @@
 }
 .team__title {
   text-align: center;
-  font-size: 48px;
+  @include section_h1;
 }
 .team__accordeon {
   display: flex;
@@ -31,9 +30,11 @@
   max-width: 25%;
   text-align: center;
   @include tablets {
-
+    max-width: 14rem;
   }
-
+  @include phones {
+  max-width: 15rem
+}
 }
 .team__picture {
   height: 18.125rem;
@@ -46,6 +47,10 @@
 .active__member .team__picture {
   @include tablets {
     display: flex;
+  }
+  @include phones {
+    max-width: 13rem;
+    max-height: 15rem;
   }
 
 }

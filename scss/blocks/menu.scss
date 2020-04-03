@@ -10,8 +10,7 @@
   color: $white;
   top: 5%;
   left: 10%;
-  font-size: 48px;
-  text-transform: uppercase;
+  @include section_h1;
 }
 .menu__list {
   display: flex;
@@ -25,8 +24,8 @@
   color: #ffffff;
   display: block;
 }
-.menu__milk  .menu__link  {
-  background: url(../img/menu/milk.png)  no-repeat;
+.menu__milk .menu__link  {
+  background: url(../img/menu/milk.png) center center/cover no-repeat;
 }
 .menu__honey  .menu__link  {
   background: url(../img/menu/honey.png) center center/cover no-repeat;

@@ -1,13 +1,16 @@
 //Оформление основного контента 1й секции
 
 .hero {
-
     background-color: $blue;
     background-image: url(../img/decor__hero.png);
     background-repeat: no-repeat;
-    background-position:  right;
+    background-position: right;
     @include tablets {
-        min-height: 1000px;
+        min-height: 800px;
+        background-size: 65%;
+    }
+    @include phones {
+
     }
 }
 .hero__container {
@@ -20,11 +23,9 @@
     align-items: center;
     @include tablets {
         flex-direction: column;
+        justify-content: space-around;
 
     }
-
-
-
 }
 
 .left-content {
@@ -33,28 +34,34 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 5rem;
         width: 100%;
         }
+    @include phones {
+        margin-top: 1rem;
 
+    }
 }
 .main-content__title {
     color: white;
     text-transform: uppercase;
-    font-size:48px;
+    font-size:3rem;
+    @include section_h1;//Миксин для всех заголовков
     @include tablets {
-        font-size:48px;
+        font-size:2.6rem;
         text-align: center;
     }
-
+    @include phones {
+        margin-bottom:0.5rem;
+    }
 }
 .left-content__h2 {
     color: $white;
-    font-size:21px;
+    font-size:1.3rem;
     width: 73%;
     @include tablets {
             text-align: center;
             width: 52%;
+            font-size:1.5rem;
         }
 }
 
@@ -72,11 +79,16 @@
         order: -1;
         width: 70%;
         position: relative;
+    }
+    @include phones {
+        width: 86%;
 
     }
 }
+
 .hero__bars:before {
     @include tablets {
+        //background:url(../img/hero/leafs768.png);
         content: url(../img/hero/leafs768.png);
         position: absolute;
         display: block;
@@ -85,23 +97,60 @@
     }
 }
 .main-content__button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff4fb;
-    border: 2px solid white;
-    border-radius: 60px;
+    background: #fff;
+    text-transform: uppercase;
+    border-radius: 3.8125rem;
+    font-size: 1.1875rem;
     color: $green;
-    margin-left:0;
-
+    padding: 1.25rem 2.1875rem;
+    line-height: 1;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s background;
     @include normalfont;
     @include tablets {
     display: block;
          margin-left: 0;
         margin-right:0;
+        }
+    @include phones {
+        font-size: 1.8875rem;
+    }
 }
-    font-size: 21px;
-    padding: 12px 20px 12px 21px;
 
+.hero__features {
+    display: flex;
+    font-size: 1rem;
+    width: 51%;
+    margin-bottom: 2rem;
+    @include tablets {
+        display: none;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        font-size: 1.1rem;
+    }
+}
+.hero__phone {
+   @include tablets {
+    display: none;
+}
+}
+.hero__features-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.hero__features-item {
+    display: flex;
+    color: $white;
+}
+.hero__features-icon {
+    width: 4.28rem;
+    margin-right: 1rem;
+}
+.hero__features-title {
+    max-width: 50%;
 }
 
