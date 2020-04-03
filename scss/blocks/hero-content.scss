@@ -12,6 +12,10 @@
     @include phones {
 
     }
+    @include phones-small {
+        min-height: 550px;
+        background-size: 62%;
+    }
 }
 .hero__container {
     padding-bottom: 2rem;
@@ -53,6 +57,9 @@
     @include phones {
         margin-bottom:0.5rem;
     }
+    @include phones-small {
+        font-size:2rem;
+    }
 }
 .left-content__h2 {
     color: $white;
@@ -63,6 +70,10 @@
             width: 52%;
             font-size:1.5rem;
         }
+    @include phones-small {
+        width: 81%;
+        font-size: 1.2rem;
+    }
 }
 
 .hero__bars {
@@ -82,18 +93,30 @@
     }
     @include phones {
         width: 86%;
-
+    }
+    @include phones-small {
+        width: 72%;
     }
 }
 
 .hero__bars:before {
+    //background:url(../img/hero/leafs768.png);
+   //content: url(../img/hero/leafs768.png);
+    position: absolute;
+    display: block;
+    transform: translateY(16%);
+    z-index: 11;
     @include tablets {
-        //background:url(../img/hero/leafs768.png);
-        content: url(../img/hero/leafs768.png);
+        background:url(../img/hero/leafs768.png);
+        //content: url(../img/hero/leafs768.png);
         position: absolute;
         display: block;
         transform: translateY(16%);
         z-index: 11;
+    }
+    @include phones-small {
+        width: 50%;
+        height: 50%;
     }
 }
 .main-content__button {
@@ -116,6 +139,9 @@
         }
     @include phones {
         font-size: 1.8875rem;
+    }
+    @include phones-small {
+        font-size: 1.2rem;
     }
 }
 

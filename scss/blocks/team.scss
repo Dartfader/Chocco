@@ -4,15 +4,24 @@
     min-height: 850px;
     width: 100%;
   }
+  @include phones-small {
+    min-height: 0;
+  }
 }
 .team__title {
   text-align: center;
   @include section_h1;
+  @include phones-small {
+    font-size: 2.1rem;
+  }
 }
 .team__accordeon {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @include phones-small {
+
+  }
 }
 .team__list {
   display: flex;
@@ -20,6 +29,8 @@
   @include tablets {
     flex-direction: column;
     align-items: center;
+  }
+  @include phones-small {
 
   }
 }
@@ -33,14 +44,19 @@
     max-width: 14rem;
   }
   @include phones {
-  max-width: 15rem
+  max-width: 15rem;
 }
+  @include phones-small {
+    max-width: 12rem;
+  }
 }
 .team__picture {
   height: 18.125rem;
   width: 100%;
   @include tablets {
     display: none;
+  }
+  @include phones-small {
 
   }
 }
@@ -52,7 +68,10 @@
     max-width: 13rem;
     max-height: 15rem;
   }
-
+  @include phones-small {
+    max-width: 9.1rem;
+    max-height: 9.1rem;
+  }
 }
 .team__content {
 
@@ -74,6 +93,9 @@
     font-size: 18px;
     order: -1;
   }
+  @include phones-small {
+    font-size: 16px;
+  }
 }
 
 .member__hidden {
@@ -88,6 +110,9 @@
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 0px;
+  @include phones-small {
+
+  }
 }
 .member__describe {
   color: #707070;

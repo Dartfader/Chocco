@@ -75,6 +75,10 @@ flex: 1;
     width: 19rem;
     height: 19rem;
   }
+  @include phones-small {
+    width: 10rem;
+    height: 10.3rem;
+  }
 }
 
 .slider__right__content {
@@ -165,7 +169,7 @@ margin-bottom: 0.9rem;
     text-align: center;
   }
   @include phones {
-
+    font-size: 17px;
   }
 
 }
@@ -184,12 +188,20 @@ align-items: flex-start;
   width: 73%;
   color: $grey;
   font-size: 18px;
+  @include phones-small {
+    width: 76%;
+    font-size: 12.7px;
+  }
 }
 
 .slider__features {
 display: flex;
 font-size: 1.6rem;
 margin-bottom: 1.5rem;
+  @include phones-small {
+    font-size: 1rem;
+    margin-bottom: 1.3rem;
+  }
 }
 
 .slider__calories {
@@ -235,10 +247,16 @@ display: flex;
   @include tablets {
     margin-right: 2rem;
   }
+  @include phones-small {
+    font-size: 33px;
+  }
 }
 
 .green__button {
   background: #365a49;
   color: $white;
   padding: 1.25rem 2.1875rem;
+  @include phones-small {
+font-size: 0.9rem;
+  }
 }

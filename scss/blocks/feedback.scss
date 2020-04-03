@@ -52,6 +52,11 @@
   color:$black;
   margin: 5rem 1rem 3rem 1rem;
   text-align: center;
+  @include  phones-small {
+    font-size: 2.7rem;
+    color: black;
+    margin: 4rem 1rem 2rem 1rem;
+  }
 }
 
 .feedback__list {
@@ -72,6 +77,11 @@
   top: -3.9375rem;
   left: 50%;
   transform: translateX(-50%);
+  @include phones-small {
+    width: 2.5rem;
+    height: 2.5rem;
+    top: -1.5375rem;
+  }
 }
 .feedback__item {
   display: flex;
@@ -98,6 +108,10 @@
     height: 132px;
     margin: auto;
   }
+  @include phones-small {
+    width: 128px;
+    height: 112px;
+  }
 }
 
 .feedback__info {
@@ -112,6 +126,9 @@
 
 .feedback__title {
   padding-top: 2rem;
+  @include phones-small {
+    padding-top: 1rem;
+  }
 }
 .feedback__photo-img {
   width: 100%;
@@ -125,6 +142,10 @@
   font-size: 18px;
   @include tablets {
     width: 90%;
+  }
+  @include phones-small {
+    font-size: 12px;
+    width: 100%;
   }
 }
 .feedback__name {
