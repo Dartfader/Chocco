@@ -4,12 +4,8 @@
     <list default="true" id="6ee71962-9734-4eda-8752-3e04f2bd1ed5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/feedback.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/hero-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/hero-content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/order.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/team.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,24 +18,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.33333334">
+    <splitter split-orientation="horizontal" split-proportion="0.3290441">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                <state relative-caret-position="257">
+                  <caret line="67" column="84" selection-start-line="67" selection-start-column="84" selection-end-line="67" selection-end-column="84" />
                   <folding>
                     <element signature="n#head#0;n#html#0;n#!!top" />
                     <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
-                    <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#a#0;n#header#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#ul#0;n#nav#0;n#header#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#button#0;n#nav#0;n#header#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#header#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#button#0;n#header#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -118,11 +111,29 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="order.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="order.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/blocks/order.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
-                  <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+                  <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="hero-content.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/blocks/hero-content.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="131" column="49" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="decoration.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/blocks/decoration.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="28" column="14" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="28" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -206,15 +217,15 @@
         <option value="$PROJECT_DIR$/burger-menu.js" />
         <option value="$PROJECT_DIR$/scss/layout/reset style.scss" />
         <option value="$PROJECT_DIR$/img/icons/sprite/aboutsprite.svg" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/blocks/hero-header.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/container.scss" />
-        <option value="$PROJECT_DIR$/scss/blocks/hero-content.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/slider.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/about.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/feedback.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/team.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/order.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/blocks/hero-content.scss" />
       </list>
     </option>
   </component>
@@ -272,7 +283,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../burger-menu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chocco-master" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -332,12 +343,12 @@
       <workItem from="1584025192291" duration="58948000" />
       <workItem from="1584550234122" duration="82782000" />
       <workItem from="1585550544982" duration="23851000" />
-      <workItem from="1585728620536" duration="43887000" />
+      <workItem from="1585728620536" duration="48261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325908000" />
+    <option name="totallyTimeSpent" value="330282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,7 +363,7 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21065183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25437203" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922536" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.019366197" />
@@ -403,9 +414,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/icons/socials/in.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/icons/phone.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -571,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/blocks/hero-content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/blocks/slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -606,20 +607,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/order.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="257">
+          <caret line="67" column="84" selection-start-line="67" selection-start-column="84" selection-end-line="67" selection-end-column="84" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#header#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#nav#0;n#header#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#button#0;n#nav#0;n#header#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#header#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#button#0;n#header#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -693,10 +698,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/blocks/order.scss">
+    <entry file="file://$PROJECT_DIR$/scss/blocks/decoration.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="374">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/hero-content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="131" column="49" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
         </state>
       </provider>
     </entry>

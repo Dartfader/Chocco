@@ -745,17 +745,33 @@ img {
 }
 @media screen and (max-width: 768px) {
   .hero__bars:before {
-    background: url(../img/hero/leafs768.png);
+    content: "";
+    background-image: url(../img/hero/leafs768.png);
+    background-repeat: no-repeat;
     position: absolute;
     display: block;
-    transform: translateY(16%);
+    transform: translateX(6%) translateY(24%);
     z-index: 11;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero__bars:before {
+    content: "";
+    transform: translateY(24%);
+    z-index: 11;
+    width: 100%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 375px) {
   .hero__bars:before {
-    width: 50%;
-    height: 50%;
+    transform: translateX(0%) translateY(20%);
+    background-position: center;
+    background-size: contain;
   }
 }
 

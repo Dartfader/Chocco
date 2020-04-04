@@ -77,6 +77,8 @@
 }
 
 .hero__bars {
+    //background-image:url(../img/hero/leafs768.png);
+    //background-repeat:no-repeat;
     position: relative;
     display: flex;
     justify-content: center;
@@ -100,23 +102,38 @@
 }
 
 .hero__bars:before {
-    //background:url(../img/hero/leafs768.png);
-   //content: url(../img/hero/leafs768.png);
     position: absolute;
     display: block;
     transform: translateY(16%);
     z-index: 11;
     @include tablets {
-        background:url(../img/hero/leafs768.png);
+        //background: url(../img/hero/leafs768.png);
         //content: url(../img/hero/leafs768.png);
+        //
+        //z-index: 51;
+        content: "";
+        background-image: url(../img/hero/leafs768.png);
+        background-repeat: no-repeat;
         position: absolute;
         display: block;
-        transform: translateY(16%);
+        transform:translateX(6%) translateY(24%);
         z-index: 11;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: contain;
+    }
+    @include phones {
+        content: "";
+        transform: translateY(24%);
+        z-index: 11;
+        width: 100%;
+        height: 100%;
     }
     @include phones-small {
-        width: 50%;
-        height: 50%;
+        transform: translateX(0%)translateY(20%);
+        background-position: center;
+        background-size: contain;
     }
 }
 .main-content__button {
