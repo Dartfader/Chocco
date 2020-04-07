@@ -25,7 +25,7 @@
                 <a href="#" class="header__logo">
                     <img class="header__logo-img" src="img/logo.png" />
                 </a>
-                <nav class="nav overlay__nav overlay__open">
+                <nav id="overlay" class="nav overlay overlay__open">
                     <ul class="nav__list overlay__list">
                         <li class="nav__item overlay__item"><a href="#" class="nav__link">О нас</a></li>
                         <li class="nav__item overlay__item"><a href="#" class="nav__link">Батончики</a></li>
@@ -36,7 +36,7 @@
                         <li class="nav__item overlay__item"><a href="#" class="nav__link">Контакты</a></li>
 
                     </ul>
-                    <button class="nav__close">
+                    <button id="nav__close" class="nav__close">
                         <svg class="close__icon">
                             <use xlink:href="img/icons/sprite/sprite.svg#close"></use>
                         </svg>
@@ -98,6 +98,7 @@
             </div>
         </div>
     </section>
+
 
     <section class="section about">
         <div class="container about__container">
@@ -638,6 +639,57 @@
 </div>
 
 
-        
+<script>
+    // const openButton=document.querySelector('.burger__button');
+    // const openNav=document.querySelector('.overlay__nav');
+    // openButton.addEventListener('click', function () {
+    //     openNav.style.visibility='visible';
+    // });
+    // const closeButton=document.querySelector('.nav__close');
+    // closeButton.addEventListener('click', function() {
+    //     openNav.style.visibility='hidden';
+    //
+    // });
+
+    //2 способ
+    let menuOpenBurger = (function(options) {
+        let button=document.querySelector(options.button);
+        let menu=document.querySelector(options.menu);
+        let body=document.querySelector('body');
+        let close=document.querySelector(options.close);
+
+        let _toggleMenu = function(e) {
+            button.classList.toggle('burger__button--open');
+            menu.classList.toggle('overlay__nav--open');
+            body.classList.toggle('body-menu-active');
+            close.classList.toggle('nav__close--active');
+            console.log(_toggleMenu);
+            console.dir(menu);
+        };
+
+        let addListeners = function () {
+            button.addEventListener('click', _toggleMenu);
+           close.addEventListener('click', _toggleMenu);
+
+        };
+
+        return {
+            openMenu:addListeners,
+        };
+
+    }) ({
+        button:'#toggle',
+        menu:'#overlay',
+        close:'#nav__close'
+    });
+    // menuOpenBurger = {
+    //     openMenu:addListeners
+    // };
+    menuOpenBurger.openMenu();
+    console.log(menuOpenBurger);
+
+
+
+</script>
 </body>
 </html>

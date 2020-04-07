@@ -60,7 +60,7 @@
         display: initial;
     }
 }
-.overlay__nav {
+.overlay{
     @include tablets {
         position: fixed;
         background: #343739;
@@ -71,31 +71,51 @@
         opacity: 0;
         visibility: hidden;
         overflow: hidden;
+
     }
 }
-.overlay__nav.overlay__open {
+//.overlay__nav.overlay__open {
+//    @include tablets {
+//        opacity: .99;
+//        //visibility: visible;
+//        height: 100%;
+//        display: flex;
+//        flex-direction: column;
+//    }
+//}
+.overlay.overlay__nav--open {
     @include tablets {
         opacity: .99;
-        //visibility: visible;
+        visibility: visible;
         height: 100%;
         display: flex;
         flex-direction: column;
+        transition: opacity 5.25s ease;
     }
 }
-.close__icon {
-
+.burger__button--open {
+    opacity:0;
+}
+.body-menu-active {
+    @include tablets {
+    overflow: hidden;
+    }
 }
 .nav__close {
     border: none;
     background: none;
     cursor: pointer;
     position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+    top: 3.8%;
+    right:7.5%;
     display: none;
+    transition: opacity .25s ease;
     @include tablets {
         display: initial;
     }
+}
+.nav__close.nav__close--active {
+
 }
 .burger__icon {
     width: 1.5rem;
