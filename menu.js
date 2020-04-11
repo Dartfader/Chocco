@@ -3,10 +3,10 @@ const menuItem=document.querySelectorAll('.menu__item');
 
  menuList.addEventListener('click', function(e)  {
      let target = e.target;
-     let currentItem=target.closest(".menu__list");//делегирование
+     let currentItem=target.closest(".menu__item");//делегирование
      e.preventDefault();
-     if (target.classList.contains("menu__item__title__text")) {
-         console.log(currentItem);
+     if (target.classList.contains("menu__link")) {
+console.log(currentItem);
          e.preventDefault();
          if (!currentItem.classList.contains("menu__active")) {
              for(let i=0;i<menuItem.length;i++) {

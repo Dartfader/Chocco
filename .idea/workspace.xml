@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee71962-9734-4eda-8752-3e04f2bd1ed5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/team.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burger-menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/burger-menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/hero-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/hero-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/team.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/задачи.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/menu.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +126,7 @@
       <workItem from="1586337495865" duration="14000" />
       <workItem from="1586337661952" duration="22000" />
       <workItem from="1586337989626" duration="13000" />
-      <workItem from="1586338936222" duration="42459000" />
+      <workItem from="1586338936222" duration="45391000" />
     </task>
     <servers />
   </component>
