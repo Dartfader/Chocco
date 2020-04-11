@@ -51,16 +51,20 @@
 }
 
 
-.menu__active .menu__item__content {
+.menu__item.menu__active .menu__item__content {
   width: 50vw;
+  opacity: 0.9;
 }
  .menu__item__content {
   position: relative;
   max-width: 32rem;
   width: 0;
   overflow: hidden;
-   transition: width 0.5s;
-  background-color: rgba(38, 33, 43, 0.79);
+   opacity: 0;
+   transition: width 0.9s;
+   transition-delay: 0.2s;
+   transition-property: opacity;
+   background-color: rgba(38, 33, 43, 0.79);
 }
 
 .menu__item__text {

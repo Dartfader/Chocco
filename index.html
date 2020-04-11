@@ -9,9 +9,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500;700;800;900&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="scss/layout/normalize.scss">
-
     <link rel="stylesheet" href="css/main.css">
+
 
 
 </head>
@@ -99,7 +98,6 @@
         </div>
     </section>
 
-
     <section class="section about">
         <div class="container about__container">
            <div class="about__info">
@@ -169,13 +167,13 @@
     </section>
 
     <section class="section slider">
-        <a href="" class="slider__arrow left-arrow">
+        <a href="" id="left" class="slider__arrow left-arrow">
             <svg class="arrow">
                 <use xlink:href="./img/icons/sprite/sprite.svg#arrow"></use>
             </svg>
         </a>
             <div class="slider__container">
-                <ul class="slider__list">
+                <ul id="items" class="slider__list">
                     <li class="slider__item">
                         <div class="slider__left-content">
                             <div class="slider__picture">
@@ -289,10 +287,121 @@
 
                         </div>
                     </li>
-                    <li class="slider__item"></li>
+                    <li class="slider__item">
+                        <div class="slider__left-content">
+                            <div class="slider__picture">
+                                <img src="./img/slider/seaweed.png" alt="" class="slider__img">
+                            </div>
+                        </div>
+                        <div class="slider__right-content">
+                            <div class="ingredients ingredients__active">
+                                <div class="hover__item">
+                                    <svg class="hover__icon">
+                                        <use xlink:href="img/icons/sprite/sprite.svg#chocolate-bar"></use>
+                                    </svg>
+                                    <span class="hover__title">Состав</span>
+                                </div>
+                                <div class="ingredients__dropdown">
+                                    <ul class="ingredients__list">
+                                        <li class="ingredients__item">
+                                            <div class="item__icon">
+                                                <svg class="svg__icon">
+                                                    <use xlink:href="./img/icons/sprite/slidersprite.svg#grape"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="item__text">Виноград</div>
+                                            <div class="item__weight">45г</div>
+                                        </li>
+                                        <li class="ingredients__item">
+                                            <div class="item__icon">
+                                                <svg class="svg__icon">
+                                                    <use xlink:href="./img/icons/sprite/slidersprite.svg#nut"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="item__text">Грецкий орех</div>
+                                            <div class="item__weight">45г</div>
+                                        </li>
+                                        <li class="ingredients__item">
+                                            <div class="item__icon">
+                                                <svg class="svg__icon">
+                                                    <use xlink:href="./img/icons/sprite/slidersprite.svg#almond2"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="item__text">Кунжутное семя</div>
+                                            <div class="item__weight">45г</div>
+                                        </li>
+                                        <li class="ingredients__item">
+                                            <div class="item__icon">
+                                                <svg class="svg__icon">
+                                                    <use xlink:href="./img/icons/sprite/slidersprite.svg#washing-powder"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="item__text">Сухое молоко</div>
+                                            <div class="item__weight">45г</div>
+                                        </li>
+                                        <li class="ingredients__item">
+                                            <div class="item__icon">
+                                                <svg class="svg__icon">
+                                                    <use xlink:href="./img/icons/sprite/slidersprite.svg#apitherapy"></use>
+                                                </svg></div>
+                                            <div class="item__text">Зам.Сахара</div>
+                                            <div class="item__weight">45г</div>
+                                        </li>
+                                        <li class="ingredients__item">
+                                            <div class="item__icon">
+                                                <svg class="svg__icon">
+                                                    <use xlink:href="./img/icons/sprite/slidersprite.svg#beans"></use>
+                                                </svg>
+                                            </div>
+                                            <div class="item__text">Какао бобы</div>
+                                            <div class="item__weight">45г</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <h3 class="slider__title">
+                                Батончик “Гранола
+                                виноград”2
+                            </h3>
+                            <div class="slider__info__container">
+                                <p class="slider__text">
+                                    Гранола из винограда, грецкого ореха и кунжутных семечек.
+                                    В состав также входят: сухое молоко, заменитель сахара и какао бобы.
+                                </p>
+                                <div class="slider__features">
+                                    <div class="slider__calories">
+                                        <span class="calories__text">Калорийность</span>
+                                        <span class="calories__value">110 ккал</span>
+                                    </div>
+                                    <div class="slider__weight">
+                                    <span class="slider__weight__text">
+                                        Вес
+                                    </span>
+                                        <span class="slider__weight__value">
+                                        95 грамм
+                                    </span>
+                                    </div>
+
+                                </div>
+                                <div class="slider__order">
+                                    <div class="slider__price">
+                                        <div class="slider__price__value">
+                                            140Р
+                                        </div>
+                                        <div class="slider__price__logo"></div>
+                                    </div>
+                                    <button class="main-content__button green__button">
+                                        Заказать
+                                    </button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
                 </ul>
             </div>
-        <a href="" class="slider__arrow right-arrow">
+        <a href=""  id="right" class="slider__arrow right-arrow">
             <svg class="arrow">
                 <use xlink:href="./img/icons/sprite/sprite.svg#arrow"></use>
             </svg>
@@ -356,14 +465,13 @@
                     Команда
                 </h1>
                 <ul class="team__list">
-                    <li class="team__item member ">
+                    <li class="team__item member">
                         <div class="team__picture">
                             <img src="./img/team/alla.png" alt="" class="team-pic">
                         </div>
                         <h3 class="team__name">Борис Федорович</h3>
                         <div class="team__content">
-
-                            <div class="member__hidden">
+                            <div class="member__hidden ">
                                 <h4 class="title__proffesion">
                                     Оператор
                                 </h4>
@@ -377,9 +485,8 @@
                         <div class="team__picture">
                             <img src="./img/team/alla.png" alt="" class="team-pic">
                         </div>
-                        <h3 class="team__name">Борис Федорович</h3>
+                        <h3 class="team__name">Алла Иванова</h3>
                         <div class="team__content">
-
                             <div class="member__hidden">
                                 <h4 class="title__proffesion">
                                     Оператор
@@ -390,14 +497,14 @@
                             </div>
                         </div>
                     </li>
-                    <li class="team__item member active__member">
+                    <li class="team__item member ">
                         <div class="team__picture">
                             <img src="./img/team/alla.png" alt="" class="team-pic">
                         </div>
-                        <h3 class="team__name">Борис Федорович</h3>
+                        <h3 class="team__name">Кирилл Матросов</h3>
                         <div class="team__content">
 
-                            <div class="member__hidden">
+                            <div id=#content class="member__hidden ">
                                 <h4 class="title__proffesion">
                                     Оператор
                                 </h4>
@@ -413,7 +520,7 @@
                         <div class="team__picture">
                             <img src="./img/team/alla.png" alt="" class="team-pic">
                         </div>
-                        <h3 class="team__name">Борис Федорович</h3>
+                        <h3 class="team__name">Мила Рыжкова</h3>
                         <div class="team__content">
 
                             <div class="member__hidden">
@@ -426,8 +533,6 @@
                             </div>
                         </div>
                     </li>
-
-
 
                 </ul>
             </div>
@@ -439,7 +544,7 @@
         <!--<div class="container menu__container">-->
             <div class=" menu__title">Меню</div>
             <ul class="menu__list">
-                <li class="menu__item menu__active menu__milk ">
+                <li class="menu__item  menu__milk ">
                         <a href="#" class="menu__link ">
                             <div class="menu__item__title__text">Батончики с молоком</div>
                         </a>
@@ -638,58 +743,11 @@
 
 </div>
 
+<script src="burger-menu.js"></script>
+<script src="slider.js"></script>
+<!--<script src="slider(1rev).js"></script>-->
+<script src="team.js"></script>
+<script src="menu.js"></script>
 
-<script>
-    // const openButton=document.querySelector('.burger__button');
-    // const openNav=document.querySelector('.overlay__nav');
-    // openButton.addEventListener('click', function () {
-    //     openNav.style.visibility='visible';
-    // });
-    // const closeButton=document.querySelector('.nav__close');
-    // closeButton.addEventListener('click', function() {
-    //     openNav.style.visibility='hidden';
-    //
-    // });
-
-    //2 способ
-    let menuOpenBurger = (function(options) {
-        let button=document.querySelector(options.button);
-        let menu=document.querySelector(options.menu);
-        let body=document.querySelector('body');
-        let close=document.querySelector(options.close);
-
-        let _toggleMenu = function(e) {
-            button.classList.toggle('burger__button--open');
-            menu.classList.toggle('overlay__nav--open');
-            body.classList.toggle('body-menu-active');
-            close.classList.toggle('nav__close--active');
-            console.log(_toggleMenu);
-            console.dir(menu);
-        };
-
-        let addListeners = function () {
-            button.addEventListener('click', _toggleMenu);
-           close.addEventListener('click', _toggleMenu);
-
-        };
-
-        return {
-            openMenu:addListeners,
-        };
-
-    }) ({
-        button:'#toggle',
-        menu:'#overlay',
-        close:'#nav__close'
-    });
-    // menuOpenBurger = {
-    //     openMenu:addListeners
-    // };
-    menuOpenBurger.openMenu();
-    console.log(menuOpenBurger);
-
-
-
-</script>
 </body>
 </html>

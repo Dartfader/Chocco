@@ -1,4 +1,7 @@
 .team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: $white;
   @include tablets {
     min-height: 850px;
@@ -6,6 +9,12 @@
   }
   @include phones-small {
     min-height: 0;
+  }
+}
+.team__container {
+  justify-content:center;
+  @include tablets {
+
   }
 }
 .team__title {
@@ -16,9 +25,9 @@
   }
 }
 .team__accordeon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
   @include phones-small {
 
   }
@@ -37,8 +46,8 @@
 .team__item  {
   flex-direction: column;
   display: flex;
-  align-items: center;
-  max-width: 25%;
+  position: relative;
+  max-width: 23%;
   text-align: center;
   @include tablets {
     max-width: 14rem;
@@ -99,12 +108,26 @@
 }
 
 .member__hidden {
-  display: none;
+  //display: none;
+  //flex-direction: column;
+  top: 100%;
+  left: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  @include tablets {
+    position: initial;
+
+  }
 }
-.active__member .member__hidden {
-  display: flex;
-  flex-direction: column;
+.team__item.is-active .member__hidden {
+  //display: flex;
+  height: 100%;
 }
+.team__item.is-active .team__picture {
+  display: initial;
+}
+
 
 .title__proffesion {
   font-size: 18px;

@@ -18,6 +18,7 @@ margin: 0 auto;
 justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;//скрытие элементов li
 }
 
 .arrow {
@@ -32,6 +33,7 @@ height: 2rem;
   height: 50%;
   align-items: center;
   position: relative;
+  z-index: 10;
   @include tablets {
     top:0;
     height: 30%;
@@ -60,14 +62,20 @@ right: 0;
 }
 
 .slider__list {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  right: 0;
 }
 
 .slider__item {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+
   @include tablets {
     flex-direction: column;
   }
