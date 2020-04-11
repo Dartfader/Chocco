@@ -6,7 +6,7 @@ const menuItem=document.querySelectorAll('.menu__item');
      let currentItem=target.closest(".menu__item");//делегирование
      e.preventDefault();
      if (target.classList.contains("menu__link")) {
-console.log(currentItem);
+            console.log(currentItem);
          e.preventDefault();
          if (!currentItem.classList.contains("menu__active")) {
              for(let i=0;i<menuItem.length;i++) {
