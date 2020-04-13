@@ -5,7 +5,7 @@ const slider=(function () {
     const right = document.querySelector("#right");
     const items = document.querySelector('#items');
     const itemCount = document.querySelectorAll('.slider__item').length;
-    console.log(itemCount);
+
     let position = 0;
 
 

@@ -627,36 +627,36 @@
                 <div class="order__col">
                     <div class="order__row">
                         <label  class="order__label">
-                            <span class="order__label__title">Имя</span>
-                            <input type="text" class="order__label__input">
+                            <span class="order__label__title" >Имя</span>
+                            <input type="text" class="order__label__input" name="name">
                         </label>
                         <label  class="order__label">
                             <span class="order__label__title">Телефон</span>
-                            <input type="text" class="order__label__input">
+                            <input type="text" class="order__label__input" name="phone">
                         </label>
                     </div>
                     <div class="order__row">
                         <label  class="order__label">
                             <span class="order__label__title">Улица</span>
-                            <input type="text" class="order__label__input">
+                            <input type="text" class="order__label__input" name="street">
                         </label>
                     </div>
                     <div class="order__row">
                         <label  class="order__label">
                             <span class="order__label__title">Дом</span>
-                            <input type="text" class="order__label__input">
+                            <input type="text" class="order__label__input" name="home">
                         </label>
                         <label  class="order__label">
                             <span class="order__label__title">Корпус</span>
-                            <input type="text" class="order__label__input">
+                            <input type="text" class="order__label__input" name="building">
                         </label>
                         <label  class="order__label">
                             <span class="order__label__title">Квартира</span>
-                            <input type="text" class="order__label__input">
+                            <input type="text" class="order__label__input" name="flat">
                         </label>
                         <label  class="order__label">
                             <span class="order__label__title">Этаж</span>
-                            <input type="text" class="order__label__input">
+                            <input type="text" class="order__label__input" name="floor">
                         </label>
                     </div>
                 </div>
@@ -670,19 +670,19 @@
                     </div>
                     <div class="order__row">
                         <label  class="order__label button__decor">
-                            <input type="radio" name="order__radio" value="" class="order__radio__button">
+                            <input type="radio" name="order__radio" value="exchange" class="order__radio__button">
                             <div class="order__radio__decor"></div>
                             <span class="order__label__title order__button-text">Потребуется сдача</span>
                         </label>
                         <label  class="order__label button__decor">
-                            <input type="radio"  name="order__radio" value="" class="order__radio__button" checked>
+                            <input type="radio"  name="order__radio" value="byCard" class="order__radio__button" checked>
                             <div class="order__radio__decor"></div>
                             <span class="order__label__title order__button-text ">Оплата по карте</span>
                         </label>
                     </div>
                     <div class="order__row">
                         <label  class="order__label order__checkbox button__decor">
-                            <input type="checkbox" class="order__label__checkbox">
+                            <input type="checkbox" class="order__label__checkbox" name="noCall">
                             <div class="order__checkbox__decor"></div>
                             <span class="order__label__title  order__button-text">Не перезванивать</span>
                         </label>
@@ -692,6 +692,12 @@
                             <button type="submit" class="order__button">Заказать</button>
                             <button type="reset" class="order__button-clear">Очистить</button>
                         </label>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal__window">
+                        <p class="modal__message"></p>
+                        <a href="" class="modal__button order__button main-content__button">Закрыть</a>
                     </div>
                 </div>
             </form>
@@ -748,6 +754,8 @@
 <!--<script src="slider(1rev).js"></script>-->
 <script src="team.js"></script>
 <script src="menu.js"></script>
+<!--<script src="order.js"></script>-->
+<script src="orderAJAX.js"></script>
 
 </body>
 </html>

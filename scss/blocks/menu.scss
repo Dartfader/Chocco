@@ -73,7 +73,14 @@
   padding:1rem;
 }
 .menu__item__close {
-
+  z-index: 30;
+  top: 2%;
+  right: 3%;
+  position: absolute;
+  width: 29px;
+  height: 35px;
+  transition: 0.3s;
+  fill: #ffffff;
 }
 .close__icon {
   z-index: 5;
