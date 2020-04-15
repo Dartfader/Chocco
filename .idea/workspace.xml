@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee71962-9734-4eda-8752-3e04f2bd1ed5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/sprite/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/sprite/sprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/player.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/player.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="week__3" />
+        <entry key="$PROJECT_DIR$" value="week__4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,11 +63,11 @@
       <recent name="B:\WEB projects\Choco\img\icons\sprite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\WEB projects\Choco\scss\layout" />
       <recent name="B:\WEB projects\Choco" />
       <recent name="B:\WEB projects\Choco\img\icons\socials" />
       <recent name="B:\WEB projects\Choco\img\feedback" />
       <recent name="B:\WEB projects\Choco\img" />
-      <recent name="B:\WEB projects\Choco\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,7 +127,7 @@
       <workItem from="1586337495865" duration="14000" />
       <workItem from="1586337661952" duration="22000" />
       <workItem from="1586337989626" duration="13000" />
-      <workItem from="1586338936222" duration="117458000" />
+      <workItem from="1586338936222" duration="121149000" />
     </task>
     <servers />
   </component>
