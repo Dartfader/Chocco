@@ -5,7 +5,8 @@
    justify-content: center;
 
   @include tablets {
-  min-height: 650px;
+  //min-height: 650px;
+    min-height:0;
   }
 }
 

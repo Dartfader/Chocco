@@ -2,7 +2,7 @@
 .feedback {
    background: $white;
   @include tablets {
-    min-height: 940px;
+    //min-height: 95%;
   }
  }
 .feedback::after{
@@ -16,24 +16,15 @@
   z-index: 2;
   background: url(../img/fruits__feedback.png) left bottom no-repeat;
 }
-//.feedback::before {
-//  content: url(../img/decor__feedback.png);
-//  position: absolute;
-//  top: 5%;
-//  right: 0;
-//  @include phones {
-//    display: none;
-//  }
-//
-//}
+
 .feedback__container {
-  justify-content: flex-start;
-  max-width: 940px;
+  justify-content: center;
+  max-width: 95%;
   flex: 1;
   position: relative;
-  min-height: 53rem;
+  //min-height: 53rem;
   @include tablets {
-    max-width: 720px;
+    max-width: 95%;
   }
 }
 
@@ -41,6 +32,7 @@
   display: flex;
   overflow: hidden;
   position: relative;
+  height: rem(346px);
   background: #80808040 url(../img/feedback/feedbackcard.png) right top no-repeat;
   @include tablets {
     padding: 0;
@@ -133,7 +125,6 @@
     align-items: center;
     width: inherit;
   }
-
 }
 
 .feedback__title {

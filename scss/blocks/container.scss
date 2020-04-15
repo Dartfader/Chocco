@@ -25,7 +25,7 @@ img {
 .section{
     position: relative;
   height:100%;
-  min-height:650px;
+  min-height:rem(650px);
   width: 100%;
   //background-color: $blue;
   //background-image: url(../img/decor__hero.png);

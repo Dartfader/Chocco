@@ -404,7 +404,7 @@ img {
 .section {
   position: relative;
   height: 100%;
-  min-height: 650px;
+  min-height: 40.625rem;
   width: 100%;
 }
 
@@ -1066,7 +1066,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .slider {
-    min-height: 650px;
+    min-height: 0;
   }
 }
 
@@ -1362,12 +1362,6 @@ img {
 .feedback {
   background: white;
 }
-@media screen and (max-width: 768px) {
-  .feedback {
-    min-height: 940px;
-  }
-}
-
 .feedback::after {
   content: "";
   position: absolute;
@@ -1381,15 +1375,14 @@ img {
 }
 
 .feedback__container {
-  justify-content: flex-start;
-  max-width: 940px;
+  justify-content: center;
+  max-width: 95%;
   flex: 1;
   position: relative;
-  min-height: 53rem;
 }
 @media screen and (max-width: 768px) {
   .feedback__container {
-    max-width: 720px;
+    max-width: 95%;
   }
 }
 
@@ -1397,6 +1390,7 @@ img {
   display: flex;
   overflow: hidden;
   position: relative;
+  height: 21.625rem;
   background: #80808040 url(../img/feedback/feedbackcard.png) right top no-repeat;
 }
 @media screen and (max-width: 768px) {
@@ -2139,7 +2133,6 @@ img {
 }
 
 .contacts {
-  min-height: 743px;
   position: relative;
 }
 
