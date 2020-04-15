@@ -986,7 +986,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #a8aba8;
+  background: #f8faf9;
   border-radius: 50%;
   width: 130px;
   height: 130px;
@@ -1373,16 +1373,22 @@ img {
   z-index: 2;
   background: url(../img/fruits__feedback.png) left bottom no-repeat;
 }
+@media screen and (max-width: 480px) {
+  .feedback::after {
+    display: none;
+  }
+}
 
 .feedback__container {
+  display: flex;
   justify-content: center;
-  max-width: 95%;
-  flex: 1;
+  max-width: 75%;
   position: relative;
 }
 @media screen and (max-width: 768px) {
   .feedback__container {
-    max-width: 95%;
+    max-width: 55%;
+    align-items: center;
   }
 }
 
@@ -1391,14 +1397,15 @@ img {
   overflow: hidden;
   position: relative;
   height: 21.625rem;
-  background: #80808040 url(../img/feedback/feedbackcard.png) right top no-repeat;
+  background: #f8faf9 url(../img/feedback/feedbackcard.png) right top no-repeat;
 }
 @media screen and (max-width: 768px) {
   .feedback__card {
     padding: 0;
     display: flex;
     flex-direction: column;
-    flex: 0.5;
+    overflow: initial;
+    height: 24.125rem;
   }
 }
 
@@ -1442,6 +1449,12 @@ img {
   padding: 4rem 1rem 1rem 1rem;
   position: relative;
 }
+@media screen and (max-width: 768px) {
+  .feedback__list {
+    width: 39rem;
+    padding: 3rem 1rem 1rem 1rem;
+  }
+}
 
 .feedback__item {
   display: flex;
@@ -1463,6 +1476,11 @@ img {
   width: 60rem;
   opacity: 1;
   transition: opacity 1s;
+}
+@media screen and (max-width: 768px) {
+  .feedback__item.feedback__item--active {
+    width: 39rem;
+  }
 }
 
 .feedback__left {
@@ -1525,13 +1543,13 @@ img {
 }
 @media screen and (max-width: 768px) {
   .feedback__text {
-    width: 90%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 375px) {
   .feedback__text {
     font-size: 12px;
-    width: 100%;
+    width: 55%;
   }
 }
 
@@ -2114,6 +2132,7 @@ img {
   align-items: center;
   z-index: 50;
   opacity: 1;
+  overflow: hidden;
 }
 
 .modal__message {
@@ -2190,6 +2209,9 @@ img {
 
 .work {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .work:before {
   content: "";
@@ -2211,6 +2233,7 @@ img {
 .player__section__container {
   width: 41.25rem;
   height: 25.3125rem;
+  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .player__section__container {

@@ -15,16 +15,22 @@
   bottom: -9%;
   z-index: 2;
   background: url(../img/fruits__feedback.png) left bottom no-repeat;
+
+  @include phones {
+    display: none;
+  }
 }
 
 .feedback__container {
+  display: flex;
   justify-content: center;
-  max-width: 95%;
-  flex: 1;
+  max-width: 75%;
+  //flex: 1;
   position: relative;
   //min-height: 53rem;
   @include tablets {
-    max-width: 95%;
+    max-width: 55%;
+    align-items: center
   }
 }
 
@@ -33,12 +39,13 @@
   overflow: hidden;
   position: relative;
   height: rem(346px);
-  background: #80808040 url(../img/feedback/feedbackcard.png) right top no-repeat;
+  background: $decoration url(../img/feedback/feedbackcard.png) right top no-repeat;
   @include tablets {
     padding: 0;
   display: flex;
   flex-direction: column;
-  flex: 0.5;
+    overflow:initial;
+    height: rem(386px);
   }
 }
 .feedback__card:before {
@@ -76,6 +83,10 @@
   width: 60rem;
   padding: 4rem 1rem 1rem 1rem;
   position: relative;
+  @include tablets {
+    width: 39rem;
+    padding: 3rem 1rem 1rem 1rem;
+  }
 }
 
 .feedback__item {
@@ -96,6 +107,9 @@
   width: 60rem;
   opacity: 1;
   transition: opacity 1s;
+  @include tablets {
+    width: 39rem;
+  }
 }
 
 .feedback__left {
@@ -144,11 +158,11 @@
   color: #707070;
   font-size: 18px;
   @include tablets {
-    width: 90%;
+    width: 80%;
   }
   @include phones-small {
     font-size: 12px;
-    width: 100%;
+    width: 55%;
   }
 }
 .feedback__name {

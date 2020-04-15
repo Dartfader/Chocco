@@ -4,11 +4,12 @@
     <list default="true" id="6ee71962-9734-4eda-8752-3e04f2bd1ed5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/container.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/feedback.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/player.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/player.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout/variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/variant.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +132,7 @@
       <workItem from="1586337495865" duration="14000" />
       <workItem from="1586337661952" duration="22000" />
       <workItem from="1586337989626" duration="13000" />
-      <workItem from="1586338936222" duration="123648000" />
+      <workItem from="1586338936222" duration="127340000" />
     </task>
     <servers />
   </component>

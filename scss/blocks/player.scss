@@ -1,6 +1,9 @@
 .work {
 
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   &:before {
     content: "";
@@ -21,7 +24,7 @@
 .player__section__container {
   width: rem(660px);
   height: rem(405px);
-
+  margin: 0 auto;
   @include tablets {
     width: rem(597px);
     height: rem(364px);
