@@ -1,7 +1,38 @@
-.player__section__container {
-  width: 41.25rem;
-  height: 25.3125rem;
+.work {
+
+  position: relative;
+
+  &:before {
+    content: "";
+    background-size: cover;
+    height: rem(321px);
+    width: rem(150px);
+    position: absolute;
+    top: rem(-160px);
+    left: 0;
+
+    @include tablets {
+      width: rem(140px);
+      height: rem(317px);
+      background-size: rem(140px) rem(317px);
+    }
+  }
 }
+.player__section__container {
+  width: rem(660px);
+  height: rem(405px);
+
+  @include tablets {
+    width: rem(597px);
+    height: rem(364px);
+  }
+
+  @include phones {
+    width: rem(397px);
+    height: rem(245px);
+  }
+}
+
 .player {
   position: relative;
   display: block;
@@ -18,17 +49,17 @@
     }
 
     .player__play {
-      width: 14px;
-      height: 22px;
+      width: rem(14px);
+      height: rem(22px);
       border: none;
 
       @include tablets {
-        height: 20px;
+        height: rem(20px);
       }
 
       @include phones {
-        width: 13px;
-        height: 13px;
+        width: rem(13px);
+        height: rem(13px);
       }
 
       &:after,
@@ -36,7 +67,7 @@
         content: "";
         display: block;
         position: absolute;
-        width: 5px;
+        width: rem(5px);
         border-radius: 1px;
         top: 0;
         bottom: 0;
@@ -55,17 +86,17 @@
 .player__elem {
   opacity: 0;
 
-  width: 660px;
-  height: 405px;
+  width: rem(660px);
+  height: rem(405px);
 
   @include tablets {
-    width: 597px;
-    height: 364px;
+    width: rem(597px);
+    height: rem(364px);
   }
 
   @include phones {
-    width: 223px;
-    height: 245px;
+    width: rem(397px);
+    height: rem(245px);
   }
 }
 
@@ -83,24 +114,24 @@
 }
 
 .player__splash-play {
-  width: 82px;
-  height: 118px;
+  width: rem(82px);
+  height: rem(118px);
   fill: $white;
 
   @include tablets {
-    width: 73px;
-    height: 106px;
+    width: rem(73px);
+    height: rem(106px);
   }
 
   @include phones {
-    width: 49px;
-    height: 71px;
+    width: rem(49px);
+    height: rem(71px);
   }
 }
 
 .player__controls {
   background-color: #404040;
-  height: 30px;
+  height: rem(36px);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -108,16 +139,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 rem(20px);
 
   @include tablets {
-    height: 32px;
-    padding: 0 17px;
+    height: rem(32px);
+    padding: 0 rem(17px);
   }
 
   @include phones {
-    height: 22px;
-    padding: 0 10px;
+    height: rem(22px);
+    padding: 0 rem(10px);
   }
 }
 
@@ -127,20 +158,20 @@
   outline: none;
   position: relative;
   padding: 0;
-  height: 22px;
+  height: rem(22px);
   cursor: pointer;
 
   @include tablets {
-    height: 20px;
+    height: rem(20px);
   }
 
   @include phones {
-    height: 13px;
+    height: rem(13px);
   }
 
   &--circle {
-    width: 12px;
-    height: 12px;
+    width: rem(12px);
+    height: rem(12px);
     border-radius: 50%;
     background-color: #626262;
     position: absolute;
@@ -148,13 +179,13 @@
     transform: translate(-50%, -50%);
 
     @include tablets {
-      width: 11px;
-      height: 11px;
+      width: rem(11px);
+      height: rem(11px);
     }
 
     @include phones {
-      width: 8px;
-      height: 8px;
+      width: rem(8px);
+      height: rem(8px);
     }
   }
 }
@@ -162,39 +193,39 @@
 .player__play{
   width: 0;
   height: 0;
-  border: 14px solid transparent;
+  border: rem(14px) solid transparent;
   border-left-color: #626262;
-  border-radius: 6px;
+  border-radius: rem(6px);
   border-right-width: 0;
 
   @include tablets {
-    border-width: 11px;
+    border-width: rem(11px);
     border-right-width: 0;
-    border-radius: 5px;
+    border-radius: rem(5px);
   }
 
   @include phones {
-    border-width: 8px;
+    border-width: rem(8px);
     border-right-width: 0;
-    border-radius: 4px;
+    border-radius: rem(4px);
   }
 }
 
 .player__vol {
-  width: 18px;
+  width: rem(18px);
 
   @include tablets {
-    width: 6px;
+    width: rem(16px);
   }
 
   @include phones {
-    width: 11px;
+    width: rem(11px);
   }
 }
 
 .player__vol-icon {
-  width: 18px;
-  height: 22px;
+  width: rem(18px);
+  height: rem(22px);
   position: absolute;
   left: 0;
   right: 0;
@@ -203,25 +234,25 @@
   fill: #626262;
 
   @include tablets {
-    width: 16px;
-    height: 20px;
+    width: rem(16px);
+    height: rem(20px);
   }
 
   @include phones {
-    width: 11px;
-    height:13px;
+    width: rem(11px);
+    height: rem(13px);
   }
 }
 
 .player__playback {
-  width: 445px;
+  width: rem(445px);
 
   @include tablets {
-    width: 398px;
+    width: rem(398px);
   }
 
   @include phones {
-    width: 298px;
+    width: rem(298px);
   }
 }
 
@@ -230,14 +261,14 @@
 }
 
 .player__volume {
-  width: 58px;
+  width: rem(58px);
 
   @include tablets {
-    width: 53px;
+    width: rem(53px);
   }
 
   @include phones {
-    width: 36px;
+    width: rem(36px);
   }
 }
 
@@ -247,15 +278,15 @@
 
 .player__volume,
 .player__playback {
-  height: 15px;
+  height: rem(15px);
   position: relative;
 
   @include tablets {
-    height: 14px;
+    height: rem(14px);
   }
 
   @include phones {
-    height: 13px;
+    height: rem(13px);
   }
 
   &:before {
@@ -272,7 +303,7 @@
 
 
     @include tablets {
-      height: 4px;
+      height: rem(4px);
     }
   }
 }

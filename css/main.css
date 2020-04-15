@@ -2126,8 +2126,19 @@ img {
   margin-bottom: 1rem;
 }
 
+.map {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.map__marker {
+  fill: white;
+  height: 5rem;
+  width: 5rem;
+}
+
 .contacts {
-  background: url(../img/contacts/map.png) center center/cover no-repeat;
   min-height: 743px;
   position: relative;
 }
@@ -2184,9 +2195,41 @@ img {
   fill: black;
 }
 
+.work {
+  position: relative;
+}
+.work:before {
+  content: "";
+  background-size: cover;
+  height: 20.0625rem;
+  width: 9.375rem;
+  position: absolute;
+  top: -10rem;
+  left: 0;
+}
+@media screen and (max-width: 768px) {
+  .work:before {
+    width: 8.75rem;
+    height: 19.8125rem;
+    background-size: 8.75rem 19.8125rem;
+  }
+}
+
 .player__section__container {
   width: 41.25rem;
   height: 25.3125rem;
+}
+@media screen and (max-width: 768px) {
+  .player__section__container {
+    width: 37.3125rem;
+    height: 22.75rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .player__section__container {
+    width: 24.8125rem;
+    height: 15.3125rem;
+  }
 }
 
 .player {
@@ -2202,26 +2245,26 @@ img {
   display: none;
 }
 .player--active .player__play {
-  width: 14px;
-  height: 22px;
+  width: 0.875rem;
+  height: 1.375rem;
   border: none;
 }
 @media screen and (max-width: 768px) {
   .player--active .player__play {
-    height: 20px;
+    height: 1.25rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player--active .player__play {
-    width: 13px;
-    height: 13px;
+    width: 0.8125rem;
+    height: 0.8125rem;
   }
 }
 .player--active .player__play:after, .player--active .player__play:before {
   content: "";
   display: block;
   position: absolute;
-  width: 5px;
+  width: 0.3125rem;
   border-radius: 1px;
   top: 0;
   bottom: 0;
@@ -2236,19 +2279,19 @@ img {
 
 .player__elem {
   opacity: 0;
-  width: 660px;
-  height: 405px;
+  width: 41.25rem;
+  height: 25.3125rem;
 }
 @media screen and (max-width: 768px) {
   .player__elem {
-    width: 597px;
-    height: 364px;
+    width: 37.3125rem;
+    height: 22.75rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player__elem {
-    width: 223px;
-    height: 245px;
+    width: 24.8125rem;
+    height: 15.3125rem;
   }
 }
 
@@ -2266,26 +2309,26 @@ img {
 }
 
 .player__splash-play {
-  width: 82px;
-  height: 118px;
+  width: 5.125rem;
+  height: 7.375rem;
   fill: white;
 }
 @media screen and (max-width: 768px) {
   .player__splash-play {
-    width: 73px;
-    height: 106px;
+    width: 4.5625rem;
+    height: 6.625rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player__splash-play {
-    width: 49px;
-    height: 71px;
+    width: 3.0625rem;
+    height: 4.4375rem;
   }
 }
 
 .player__controls {
   background-color: #404040;
-  height: 30px;
+  height: 2.25rem;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -2293,18 +2336,18 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 @media screen and (max-width: 768px) {
   .player__controls {
-    height: 32px;
-    padding: 0 17px;
+    height: 2rem;
+    padding: 0 1.0625rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player__controls {
-    height: 22px;
-    padding: 0 10px;
+    height: 1.375rem;
+    padding: 0 0.625rem;
   }
 }
 
@@ -2314,22 +2357,22 @@ img {
   outline: none;
   position: relative;
   padding: 0;
-  height: 22px;
+  height: 1.375rem;
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   .player__btn {
-    height: 20px;
+    height: 1.25rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player__btn {
-    height: 13px;
+    height: 0.8125rem;
   }
 }
 .player__btn--circle {
-  width: 12px;
-  height: 12px;
+  width: 0.75rem;
+  height: 0.75rem;
   border-radius: 50%;
   background-color: #626262;
   position: absolute;
@@ -2338,57 +2381,57 @@ img {
 }
 @media screen and (max-width: 768px) {
   .player__btn--circle {
-    width: 11px;
-    height: 11px;
+    width: 0.6875rem;
+    height: 0.6875rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player__btn--circle {
-    width: 8px;
-    height: 8px;
+    width: 0.5rem;
+    height: 0.5rem;
   }
 }
 
 .player__play {
   width: 0;
   height: 0;
-  border: 14px solid transparent;
+  border: 0.875rem solid transparent;
   border-left-color: #626262;
-  border-radius: 6px;
+  border-radius: 0.375rem;
   border-right-width: 0;
 }
 @media screen and (max-width: 768px) {
   .player__play {
-    border-width: 11px;
+    border-width: 0.6875rem;
     border-right-width: 0;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player__play {
-    border-width: 8px;
+    border-width: 0.5rem;
     border-right-width: 0;
-    border-radius: 4px;
+    border-radius: 0.25rem;
   }
 }
 
 .player__vol {
-  width: 18px;
+  width: 1.125rem;
 }
 @media screen and (max-width: 768px) {
   .player__vol {
-    width: 6px;
+    width: 1rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player__vol {
-    width: 11px;
+    width: 0.6875rem;
   }
 }
 
 .player__vol-icon {
-  width: 18px;
-  height: 22px;
+  width: 1.125rem;
+  height: 1.375rem;
   position: absolute;
   left: 0;
   right: 0;
@@ -2398,28 +2441,28 @@ img {
 }
 @media screen and (max-width: 768px) {
   .player__vol-icon {
-    width: 16px;
-    height: 20px;
+    width: 1rem;
+    height: 1.25rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player__vol-icon {
-    width: 11px;
-    height: 13px;
+    width: 0.6875rem;
+    height: 0.8125rem;
   }
 }
 
 .player__playback {
-  width: 445px;
+  width: 27.8125rem;
 }
 @media screen and (max-width: 768px) {
   .player__playback {
-    width: 398px;
+    width: 24.875rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player__playback {
-    width: 298px;
+    width: 18.625rem;
   }
 }
 
@@ -2428,16 +2471,16 @@ img {
 }
 
 .player__volume {
-  width: 58px;
+  width: 3.625rem;
 }
 @media screen and (max-width: 768px) {
   .player__volume {
-    width: 53px;
+    width: 3.3125rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player__volume {
-    width: 36px;
+    width: 2.25rem;
   }
 }
 
@@ -2447,19 +2490,19 @@ img {
 
 .player__volume,
 .player__playback {
-  height: 15px;
+  height: 0.9375rem;
   position: relative;
 }
 @media screen and (max-width: 768px) {
   .player__volume,
 .player__playback {
-    height: 14px;
+    height: 0.875rem;
   }
 }
 @media screen and (max-width: 480px) {
   .player__volume,
 .player__playback {
-    height: 13px;
+    height: 0.8125rem;
   }
 }
 .player__volume:before,
@@ -2478,7 +2521,7 @@ img {
 @media screen and (max-width: 768px) {
   .player__volume:before,
 .player__playback:before {
-    height: 4px;
+    height: 0.25rem;
   }
 }
 

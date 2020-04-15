@@ -1,5 +1,16 @@
+.map {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.map__marker {
+  fill: white;
+  height: 5rem;
+  width: 5rem;
+}
 .contacts {
-  background: url(../img/contacts/map.png) center center/cover no-repeat;
+  //background: url(../img/contacts/map.png) center center/cover no-repeat;
   min-height: 743px;
   position: relative;
 }
