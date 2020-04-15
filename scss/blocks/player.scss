@@ -1,0 +1,278 @@
+.player__section__container {
+  width: 41.25rem;
+  height: 25.3125rem;
+}
+.player {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  &--active {
+    .player__elem {
+      opacity: 1;
+    }
+
+    .player__splash {
+      display: none;
+    }
+
+    .player__play {
+      width: 14px;
+      height: 22px;
+      border: none;
+
+      @include tablets {
+        height: 20px;
+      }
+
+      @include phones {
+        width: 13px;
+        height: 13px;
+      }
+
+      &:after,
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 5px;
+        border-radius: 1px;
+        top: 0;
+        bottom: 0;
+        background: #626262;
+      }
+      &:after {
+        right: 0;
+      }
+      &:before {
+        left: 0;
+      }
+    }
+  }
+}
+
+.player__elem {
+  opacity: 0;
+
+  width: 660px;
+  height: 405px;
+
+  @include tablets {
+    width: 597px;
+    height: 364px;
+  }
+
+  @include phones {
+    width: 223px;
+    height: 245px;
+  }
+}
+
+.player__splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  cursor: pointer;
+  background: url("../img/player-splash.png") center center no-repeat;
+}
+
+.player__splash-play {
+  width: 82px;
+  height: 118px;
+  fill: $white;
+
+  @include tablets {
+    width: 73px;
+    height: 106px;
+  }
+
+  @include phones {
+    width: 49px;
+    height: 71px;
+  }
+}
+
+.player__controls {
+  background-color: #404040;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+
+  @include tablets {
+    height: 32px;
+    padding: 0 17px;
+  }
+
+  @include phones {
+    height: 22px;
+    padding: 0 10px;
+  }
+}
+
+.player__btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: relative;
+  padding: 0;
+  height: 22px;
+  cursor: pointer;
+
+  @include tablets {
+    height: 20px;
+  }
+
+  @include phones {
+    height: 13px;
+  }
+
+  &--circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #626262;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    @include tablets {
+      width: 11px;
+      height: 11px;
+    }
+
+    @include phones {
+      width: 8px;
+      height: 8px;
+    }
+  }
+}
+
+.player__play{
+  width: 0;
+  height: 0;
+  border: 14px solid transparent;
+  border-left-color: #626262;
+  border-radius: 6px;
+  border-right-width: 0;
+
+  @include tablets {
+    border-width: 11px;
+    border-right-width: 0;
+    border-radius: 5px;
+  }
+
+  @include phones {
+    border-width: 8px;
+    border-right-width: 0;
+    border-radius: 4px;
+  }
+}
+
+.player__vol {
+  width: 18px;
+
+  @include tablets {
+    width: 6px;
+  }
+
+  @include phones {
+    width: 11px;
+  }
+}
+
+.player__vol-icon {
+  width: 18px;
+  height: 22px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  fill: #626262;
+
+  @include tablets {
+    width: 16px;
+    height: 20px;
+  }
+
+  @include phones {
+    width: 11px;
+    height:13px;
+  }
+}
+
+.player__playback {
+  width: 445px;
+
+  @include tablets {
+    width: 398px;
+  }
+
+  @include phones {
+    width: 298px;
+  }
+}
+
+.player__playback-btn {
+  left: 0;
+}
+
+.player__volume {
+  width: 58px;
+
+  @include tablets {
+    width: 53px;
+  }
+
+  @include phones {
+    width: 36px;
+  }
+}
+
+.player__volume-btn {
+  left: 100%;
+}
+
+.player__volume,
+.player__playback {
+  height: 15px;
+  position: relative;
+
+  @include tablets {
+    height: 14px;
+  }
+
+  @include phones {
+    height: 13px;
+  }
+
+  &:before {
+    content: "";
+    height: 5px;
+    border-radius: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    background: #626262;
+    display: block;
+    transform: translateY(-50%);
+
+
+    @include tablets {
+      height: 4px;
+    }
+  }
+}

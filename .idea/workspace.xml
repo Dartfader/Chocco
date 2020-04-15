@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee71962-9734-4eda-8752-3e04f2bd1ed5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/feedback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/blocks/player.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feedback.js" beforeDir="false" afterPath="$PROJECT_DIR$/feedback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/sprite/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/sprite/sprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderAJAX.js" beforeDir="false" afterPath="$PROJECT_DIR$/orderAJAX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/feedback.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/order.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="SCSS File" />
         <option value="HTML File" />
+        <option value="SCSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -57,7 +61,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../choco-master" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -69,8 +73,8 @@
       <recent name="B:\WEB projects\Choco\img\icons\sprite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="B:\WEB projects\Choco\img\icons\socials" />
       <recent name="B:\WEB projects\Choco" />
+      <recent name="B:\WEB projects\Choco\img\icons\socials" />
       <recent name="B:\WEB projects\Choco\img\feedback" />
       <recent name="B:\WEB projects\Choco\img" />
       <recent name="B:\WEB projects\Choco\css" />
@@ -133,7 +137,7 @@
       <workItem from="1586337495865" duration="14000" />
       <workItem from="1586337661952" duration="22000" />
       <workItem from="1586337989626" duration="13000" />
-      <workItem from="1586338936222" duration="77270000" />
+      <workItem from="1586338936222" duration="108466000" />
     </task>
     <servers />
   </component>

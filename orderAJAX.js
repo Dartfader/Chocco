@@ -4,17 +4,18 @@ const modal = document.querySelector('.modal');
 const modalMessage = modal.querySelector('.modal__message');
 const modalButton = modal.querySelector('.modal__button');
 
+
 //отпарвка запроса
 
 let ajaxForm = function(form) {//функция отправки запроса
     let formData = new FormData() ;
 
-        formData.append("name", myForm.elements.name.value );
-        formData.append("phone", myForm.elements.phone.value );
-        formData.append("comment", myForm.elements.comment.value);
-
+        formData.append("name", form.elements.name.value );
+        formData.append("phone", form.elements.phone.value );
+        formData.append("comment", form.elements.comment.value);
+        formData.append("to", "matrenin1995@mail.ru");
     // let data = {
-    //     name:myForm.elements.firstname.value,
+    //     name:myForm.elements.name.value,
     //     phone:myForm.elements.phone.value,
     //     comment:myForm.elements.comment.value,
     //     to:"vld@mail.com",
@@ -23,22 +24,25 @@ let ajaxForm = function(form) {//функция отправки запроса
    let urlSuccess='https://webdev-api.loftschool.com/sendmail';
     const xhr=new XMLHttpRequest();
     xhr.responseType="json";
-    xhr.open("POST", urlSuccess);
+    xhr.open("POST", url);
     xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
     xhr.send(formData);
+    // console.log(formData);
     return xhr;
 
 };
 
-validateButton.addEventListener('click', (e)=> {
+myForm.addEventListener('submit', (e)=> {
     e.preventDefault();
-    let form=e.target;
-    console.log(form);
-    let request=ajaxForm(form);
-    console.log("status"+ ' '+ request.status);
-    if(request.status>=400) {
+    let currentForm=e.target;
+// console.log(currentForm);
+    let request=ajaxForm(currentForm);
+    console.log(request.status);
+    console.log(request);
+    if(request.status===0) {
         modalMessage.textContent = 'Произошла ошибка';
         modal.classList.add('modal--active');
+        console.log(modal);
     }
     else {
         modalMessage.textContent = 'Сообщение было успешно отправлено';

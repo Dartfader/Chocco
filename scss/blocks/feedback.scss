@@ -13,7 +13,7 @@
   height: 50%;
   left: 0;
   bottom: -9%;
-  z-index: 20;
+  z-index: 2;
   background: url(../img/fruits__feedback.png) left bottom no-repeat;
 }
 //.feedback::before {
@@ -31,15 +31,17 @@
   max-width: 940px;
   flex: 1;
   position: relative;
+  min-height: 53rem;
   @include tablets {
     max-width: 720px;
   }
 }
 
-
 .feedback__card {
   display: flex;
-  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  background: #80808040 url(../img/feedback/feedbackcard.png) right top no-repeat;
   @include tablets {
     padding: 0;
   display: flex;
@@ -47,27 +49,7 @@
   flex: 0.5;
   }
 }
-.section__title-feedback {
-  @include section_h1;
-  color:$black;
-  margin: 5rem 1rem 3rem 1rem;
-  text-align: center;
-  @include  phones-small {
-    font-size: 2.7rem;
-    color: black;
-    margin: 4rem 1rem 2rem 1rem;
-  }
-}
-
-.feedback__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #80808040 url(../img/feedback/feedbackcard.png) right top no-repeat;
-  padding: 4rem 1rem 1rem 1rem;
-  position: relative;
-}
-.feedback__list:before {
+.feedback__card:before {
   content: "";
   width: 5.5rem;
   height: 5.5rem;
@@ -83,10 +65,34 @@
     top: -1.5375rem;
   }
 }
+
+.section__title-feedback {
+  @include section_h1;
+  color:$black;
+  margin: 5rem 1rem 3rem 1rem;
+  text-align: center;
+  @include  phones-small {
+    font-size: 2.7rem;
+    margin: 4rem 1rem 2rem 1rem;
+  }
+}
+
+.feedback__list {
+  display: flex;
+  //justify-content: center;
+  align-items: center;
+  width: 60rem;
+  padding: 4rem 1rem 1rem 1rem;
+  position: relative;
+}
+
 .feedback__item {
   display: flex;
-  padding-left: 5rem;
+  //padding-left: 1rem;
   margin-bottom: 2rem;
+  flex-shrink: 0;
+  width:0;
+  opacity: 0;
   @include tablets {
     margin: auto;
     display: initial;
@@ -94,6 +100,12 @@
   width: inherit;
   }
 }
+.feedback__item.feedback__item--active {
+  width: 60rem;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
 .feedback__left {
   margin-right:25px;
   @include tablets {
@@ -157,13 +169,17 @@
   padding-top: 1rem;
 }
 .avatar__item {
-  border: 0.5rem solid transparent;
+  border: 0.3rem solid transparent;
   border-radius: 50%;
   overflow: hidden;
   @include tablets {
     border: 0.2rem solid transparent;
   }
 }
+.avatar__item.avatar__item--active {
+  border-color: #106331;
+}
+
 .avatar__image {
   height: 64px;
   width: 64px;
@@ -176,7 +192,4 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-.active {
-  border-color: #106331;
 }
