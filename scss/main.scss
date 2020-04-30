@@ -1,0 +1,31 @@
+//Переменные
+@import "./layout/variant";
+
+//mixins
+@import "./layout/mixins";
+
+//layout
+@import "layout/normalize";
+
+//blocks
+
+@import "./layout/reset style";
+@import "./blocks/container";
+@import "./blocks/decoration";
+@import "./blocks/hero";
+@import "./blocks/hero-header";
+@import "./blocks/hero-content";
+@import "blocks/hero-features";
+@import "./blocks/about";
+@import "./blocks/slider";
+@import "./blocks/feedback";
+@import "./blocks/team";
+@import "./blocks/menu";
+@import "./blocks/order";
+@import "./blocks/contacts";
+@import "./blocks/player";
+@import "./layout/fonts";
+
+
+
+

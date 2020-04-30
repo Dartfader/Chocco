@@ -1,0 +1,52 @@
+/*
+Error: Invalid CSS after "  background: ": expected expression (e.g. 1px, bold), was "#80808040 url(...."
+        on line 66 of B:\WEB projects\Choco\scss\blocks\feedback.scss
+
+61: 
+62: .feedback__list {
+63:   display: flex;
+64:   justify-content: center;
+65:   align-items: center;
+66:   background: #80808040 url(../img/feedback/feedbackcard.png) right top no-repeat;
+67:   padding: 4rem 1rem 1rem 1rem;
+68:   position: relative;
+69: }
+70: .feedback__list:before {
+71:   content: "";
+
+Backtrace:
+B:\WEB projects\Choco\scss\blocks\feedback.scss:66
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:723:in `assert_expr'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:68:in `parse'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1134:in `sass_script'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:988:in `value!'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:796:in `block in try_declaration'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `call'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `rethrow'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:809:in `try_declaration'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+B:/Programs/coala/bin/sass:22:in `load'
+B:/Programs/coala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"  background: \": expected expression (e.g. 1px, bold), was \"#80808040 url(....\"\A         on line 66 of B:\WEB projects\Choco\scss\blocks\feedback.scss\A \A 61: \A 62: .feedback__list {\A 63:   display: flex;\A 64:   justify-content: center;\A 65:   align-items: center;\A 66:   background: #80808040 url(../img/feedback/feedbackcard.png) right top no-repeat;\A 67:   padding: 4rem 1rem 1rem 1rem;\A 68:   position: relative;\A 69: }\A 70: .feedback__list:before {\A 71:   content: \"\";"; }

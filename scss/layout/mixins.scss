@@ -1,0 +1,38 @@
+//font mixin
+
+@mixin normalfont {
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+@mixin Aleg {
+  font-family:'Alegreya Sans', sans-serif;
+}
+
+@mixin section_h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+@mixin tablets {
+  @media screen and (max-width:$tablets) {
+    @content;
+  }
+}
+@mixin phones {
+  @media screen and (max-width:$phones) {
+    @content
+  }
+}
+
+@mixin phones-small {
+  @media screen and (max-width:$phones-small) {
+    @content
+  }
+}
+
+@function rem($px) {
+  @return $px / 16px + 0rem;
+}
+
