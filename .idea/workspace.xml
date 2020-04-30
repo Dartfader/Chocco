@@ -5,11 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/container.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/feedback.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/player.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/player.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/variant.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +52,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../choco-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -132,7 +128,11 @@
       <workItem from="1586337495865" duration="14000" />
       <workItem from="1586337661952" duration="22000" />
       <workItem from="1586337989626" duration="13000" />
-      <workItem from="1586338936222" duration="127340000" />
+      <workItem from="1586338936222" duration="128037000" />
+      <workItem from="1587030001967" duration="764000" />
+      <workItem from="1587722476713" duration="4098000" />
+      <workItem from="1587815036005" duration="2376000" />
+      <workItem from="1588179450737" duration="7919000" />
     </task>
     <servers />
   </component>
@@ -153,7 +153,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

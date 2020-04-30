@@ -1393,19 +1393,25 @@ img {
 }
 
 .feedback__card {
+  background: #f8faf9 url(../img/feedback/feedbackcard.png) right top no-repeat;
   display: flex;
   overflow: hidden;
   position: relative;
-  height: 21.625rem;
-  background: #f8faf9 url(../img/feedback/feedbackcard.png) right top no-repeat;
+  height: 26.875rem;
+  margin-bottom: 36px;
 }
 @media screen and (max-width: 768px) {
   .feedback__card {
     padding: 0;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     overflow: initial;
-    height: 24.125rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .feedback__card {
+    margin-bottom: 2.25rem;
   }
 }
 
@@ -1416,7 +1422,7 @@ img {
   border-radius: 50%;
   background: #fff;
   position: absolute;
-  top: -3.9375rem;
+  top: -2.9375rem;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1444,6 +1450,7 @@ img {
 
 .feedback__list {
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 60rem;
   padding: 4rem 1rem 1rem 1rem;
@@ -1451,6 +1458,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .feedback__list {
+    flex-direction: column;
     width: 39rem;
     padding: 3rem 1rem 1rem 1rem;
   }
@@ -1458,17 +1466,17 @@ img {
 
 .feedback__item {
   display: flex;
+  padding-left: 1rem;
   margin-bottom: 2rem;
   flex-shrink: 0;
   width: 0;
   opacity: 0;
+  position: absolute;
+  left: -9999px;
 }
 @media screen and (max-width: 768px) {
   .feedback__item {
-    margin: auto;
-    display: initial;
-    padding: 0;
-    width: inherit;
+    display: block;
   }
 }
 
@@ -1476,10 +1484,12 @@ img {
   width: 60rem;
   opacity: 1;
   transition: opacity 1s;
+  position: static;
 }
 @media screen and (max-width: 768px) {
   .feedback__item.feedback__item--active {
     width: 39rem;
+    left: initial;
   }
 }
 
@@ -1560,7 +1570,6 @@ img {
 .feedback__avatars {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
 }
 
 .avatar__item {
