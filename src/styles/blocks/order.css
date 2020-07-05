@@ -1,0 +1,66 @@
+/*
+Error: Undefined mixin 'tablets'.
+        on line 3 of B:\WEB projects\Choco\scss\blocks\order.scss, in `tablets'
+        from line 3 of B:\WEB projects\Choco\scss\blocks\order.scss
+
+1: .order {
+2:   background: url(../img/order/orderbackground.png) center center/cover no-repeat;
+3: @include tablets {
+4:   min-height: 970px;
+5:   }
+6:   @include phones {
+7:     min-height: 0;
+8:   }
+
+Backtrace:
+B:\WEB projects\Choco\scss\blocks\order.scss:3:in `tablets'
+B:\WEB projects\Choco\scss\blocks\order.scss:3
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+B:/Programs/coala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+B:/Programs/coala/bin/sass:22:in `load'
+B:/Programs/coala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'tablets'.\A         on line 3 of B:\WEB projects\Choco\scss\blocks\order.scss, in `tablets'\A         from line 3 of B:\WEB projects\Choco\scss\blocks\order.scss\A \A 1: .order {\A 2:   background: url(../img/order/orderbackground.png) center center/cover no-repeat;\A 3: @include tablets {\A 4:   min-height: 970px;\A 5:   }\A 6:   @include phones {\A 7:     min-height: 0;\A 8:   }"; }

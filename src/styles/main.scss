@@ -1,0 +1,57 @@
+//font
+$boldFont:700;
+$mediumFont:500;
+
+//Colors var
+$green:#365a49;
+$blue:#86c3d7;
+$white :white;
+$black :black;
+$grey:grey;
+$decoration:#f8faf9;
+
+
+//
+$tablets:768px;
+$phones:480px;
+$phones-small:375px;
+
+
+@import "layout/fonts.scss";
+@import "layout/onepage-scroll";
+@import "layout/*.scss";
+@import "layout/*.css";
+@import "blocks/*.scss";
+
+
+////Переменные
+//@import "layout/variant.css";
+//
+////mixins
+//@import "../../scss/layout/mixins";
+//
+////layout
+//@import "../../scss/layout/normalize";
+//
+////blocks
+//
+//@import "../../scss/layout/reset style";
+//@import "../../scss/blocks/container";
+//@import "../../scss/blocks/decoration";
+//@import "blocks/hero.css";
+//@import "blocks/hero-header.css";
+//@import "../../scss/blocks/hero-content";
+//@import "blocks/hero-features.css";
+//@import "../../scss/blocks/about";
+//@import "../../scss/blocks/slider";
+//@import "../../scss/blocks/feedback";
+//@import "../../scss/blocks/team";
+//@import "blocks/menu.css";
+//@import "blocks/order.css";
+//@import "../../scss/blocks/contacts";
+//@import "blocks/player";
+//@import "../../scss/layout/fonts";
+//
+
+
+
