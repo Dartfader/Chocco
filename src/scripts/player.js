@@ -74,7 +74,7 @@
     });
 
     playerPlayback.addEventListener('click', (e) => {
-        const bar = $(e.currentTarget);
+        const bar = e.currentTarget;
         const newButtonPosition = e.pageX - bar.offset().left;
         const buttonPosPercent = (newButtonPosition / bar.width()) * 100;
         const newPlayerTimeSec = (video.duration / 100) * buttonPosPercent;
@@ -83,17 +83,17 @@
     })
 
     playerVolBtn.addEventListener('click', () => {
-        video.volume = !video.volume
-        const volPos = video.volume ? 100 : 0
-        playerVolumeBtn.style.left = `${volPos}%`
+        video.volume = !video.volume;
+        const volPos = video.volume ? 100 : 0;
+        playerVolumeBtn.style.left = `${volPos}%`;
     })
 
     playerVolume.addEventListener('click', (e) => {
-        const bar = $(e.currentTarget);
+        const bar =e.currentTarget;
         const newButtonPosition = e.pageX - bar.offset().left;
         const buttonPosPercent = (newButtonPosition / bar.width()) * 100;
         const newPlayerVolume = (1 / 100) * buttonPosPercent;
-        playerVolumeBtn.style.left = `${buttonPosPercent}%`
-        video.volume = newPlayerVolume
+        playerVolumeBtn.style.left = `${buttonPosPercent}%`;
+        video.volume = newPlayerVolume;
     })
 }) ()

@@ -3,145 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="6ee71962-9734-4eda-8752-3e04f2bd1ed5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burger-menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/burger-menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/player.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout/variant.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/onepage-scroll.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feedback.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/feedback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/4wUo5jfONsg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/4wUo5jfONsg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacts/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/contacts/map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/decor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor__feedback.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/decor__feedback.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor__hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/decor__hero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/feedback/feedbackcard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/feedback/feedbackcard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/feedback/photo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/feedback/photo1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/feedback/photo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/feedback/photo2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/feedback/photo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/feedback/photo3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/feedbackcard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/feedbackcard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/fit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fruits__feedback.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/fruits__feedback.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero/bars768.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero/bars768.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero/leafs768.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero/leafs768.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero/Батончики.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero/Батончики.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero/листья копия.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero/листья копия.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero/листья.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero/листья.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero/ягоды.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero/ягоды.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/checkmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/checkmark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/chocolate-bar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/chocolate-bar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/close.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/hamburger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/hamburger.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/man.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/man.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/oat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/oat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/phone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/phone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/power.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/power.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/rub.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/rub.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/seaweed.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/seaweed.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/seeds.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/seeds.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/slider-menu/almond2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/slider-menu/almond2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/slider-menu/apitherapy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/slider-menu/apitherapy.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/slider-menu/beans.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/slider-menu/beans.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/slider-menu/grape.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/slider-menu/grape.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/slider-menu/nut.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/slider-menu/nut.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/slider-menu/washing-powder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/slider-menu/washing-powder.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/smile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/smile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/socials/f.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/socials/f.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/socials/in.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/socials/in.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/socials/tv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/socials/tv.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/socials/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/socials/vk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/sprite/aboutsprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/sprite/aboutsprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/sprite/slidersprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/sprite/slidersprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/sprite/socialsprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/sprite/socialsprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/sprite/sprite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/leaf.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/leaf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/malina.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/malina.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/malina__feedback.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/malina__feedback.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/menu/berries.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/menu/berries.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/menu/honey.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/menu/honey.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/menu/menubackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/menu/menubackground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/menu/milk.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/menu/milk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/menu/картинка.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/menu/картинка.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/natural.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/natural.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/order/orderbackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/order/orderbackground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/player-splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/player-splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/power.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/power.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/granola.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/granola.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/seaweed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/seaweed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/alla.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/team/alla.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/boris.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/team/boris.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/kirill.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/team/kirill.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/mila.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/team/mila.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/truck.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/truck.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/useful.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/useful.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Батончики.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Батончики.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onepagescroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/onepagescroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderAJAX.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/orderAJAX.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/contacts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/container.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/container.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/decoration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/decoration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/decoration.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/decoration.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/feedback.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/feedback.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/feedback.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/hero-content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/hero-content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/hero-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/hero-content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/hero-features.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/hero-features.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/hero-features.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/hero-features.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/hero-features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/hero-features.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/hero-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/hero-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/hero-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/hero-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/hero.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/hero.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/hero.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/order.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/order.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/order.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/player.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/player.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/team.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/fonts.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/fonts.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/mixins.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/mixins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/mixins.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/mixins.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/normalize.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/normalize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/reset style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/reset style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/reset style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/reset style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/variant.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/variant.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/variant.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/variant.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/variant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/team.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/videoplayback.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/video.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/order.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -301,7 +170,8 @@
       <workItem from="1593717774806" duration="1222000" />
       <workItem from="1593849409299" duration="612000" />
       <workItem from="1593937373197" duration="15767000" />
-      <workItem from="1593964553142" duration="3496000" />
+      <workItem from="1593964553142" duration="6310000" />
+      <workItem from="1594052970885" duration="2075000" />
     </task>
     <servers />
   </component>
