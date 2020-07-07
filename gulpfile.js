@@ -19,6 +19,8 @@ sass.compiler = require('node-sass');
 const gulpif = require('gulp-if');
 const env = process.env.NODE_ENV;
 const imagemin = require('gulp-imagemin');// minimize images
+const ghPages = require('gh-pages');//add deploy on gh-page
+const path = require('path');
 
 task( 'clean', ()=> {
     console.log(env);
@@ -124,6 +126,10 @@ task('watch', () => {
     watch('./src/img/**/*', series('img'));
 });
 
+function deploy(cb) {
+    ghPages.publish(path.join(process.cwd(), './dist'), cb);
+}
+exports.deploy = deploy;
 
 task('default',
     series('clean',
