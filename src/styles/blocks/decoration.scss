@@ -9,7 +9,7 @@
 }
 
 .hero__container::before {
-  content: url(../img/leaf.png);
+  content: url(./img/leaf.png);
   position: absolute;
   display: block;
   bottom: 0;
@@ -22,7 +22,7 @@
 }
 .hero__container::after {
   content:"";
-  background: url(../img/decor.png) right bottom no-repeat;
+  background: url(./img/decor.png) right bottom no-repeat;
   position: absolute;
   display: block;
   width: 50%;

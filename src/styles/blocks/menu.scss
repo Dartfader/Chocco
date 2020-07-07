@@ -1,5 +1,5 @@
 .menu {
-  background: url(../img/menu/menubackground.png) center center/cover no-repeat;
+  background: url(./img/menu/menubackground.png) center center/cover no-repeat;
   position: relative;
   background-size: cover;
   min-height: 550px;
@@ -25,13 +25,13 @@
   display: block;
 }
 .menu__milk .menu__link  {
-  background: url(../img/menu/milk.png) center center/cover no-repeat;
+  background: url(./img/menu/milk.png) center center/cover no-repeat;
 }
 .menu__honey  .menu__link  {
-  background: url(../img/menu/honey.png) center center/cover no-repeat;
+  background: url(./img/menu/honey.png) center center/cover no-repeat;
  }
 .menu__berries  .menu__link  {
-  background: url(../img/menu/berries.png) center center/cover no-repeat;
+  background: url(./img/menu/berries.png) center center/cover no-repeat;
 }
 .menu__item__title__text {
   display: flex;

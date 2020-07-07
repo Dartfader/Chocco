@@ -19,7 +19,7 @@ sass.compiler = require('node-sass');
 const gulpif = require('gulp-if');
 const env = process.env.NODE_ENV;
 const imagemin = require('gulp-imagemin');// minimize images
-const ghPages = require('gh-pages');//add deploy on gh-page
+const ghPages = require('gh-pages');//add deploy on gh-page (npx gulp deploy)
 const path = require('path');
 
 task( 'clean', ()=> {

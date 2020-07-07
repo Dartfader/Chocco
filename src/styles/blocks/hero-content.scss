@@ -2,7 +2,7 @@
 
 .hero {
     background-color: $blue;
-    background-image: url(../img/decor__hero.png);
+    background-image: url(./img/decor__hero.png);
     background-repeat: no-repeat;
     background-position: right;
     @include tablets {
@@ -112,7 +112,7 @@
         //
         //z-index: 51;
         content: "";
-        background-image: url(../img/hero/leafs768.png);
+        background-image: url(./img/hero/leafs768.png);
         background-repeat: no-repeat;
         position: absolute;
         display: block;
