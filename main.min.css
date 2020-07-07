@@ -525,7 +525,7 @@ button {
 .about::after {
   content: "";
   position: absolute;
-  background: url(../img/malina.png) left bottom no-repeat;
+  background: url(./img/malina.png) left bottom no-repeat;
   display: block;
   z-index: 31;
   width: 33%;
@@ -762,7 +762,7 @@ img {
       display: none; } }
 
 .hero__container::before {
-  content: url(../img/leaf.png);
+  content: url(./img/leaf.png);
   position: absolute;
   display: block;
   bottom: 0;
@@ -775,7 +775,7 @@ img {
 
 .hero__container::after {
   content: "";
-  background: url(../img/decor.png) right bottom no-repeat;
+  background: url(./img/decor.png) right bottom no-repeat;
   position: absolute;
   display: block;
   width: 50%;
@@ -800,7 +800,7 @@ img {
   left: 0;
   bottom: -9%;
   z-index: 2;
-  background: url(../img/fruits__feedback.png) left bottom no-repeat; }
+  background: url(./img/fruits__feedback.png) left bottom no-repeat; }
   @media screen and (max-width: 480px) {
     .feedback::after {
       display: none; } }
@@ -816,7 +816,7 @@ img {
       align-items: center; } }
 
 .feedback__card {
-  background: #f8faf9 url(../img/feedback/feedbackcard.png) right top no-repeat;
+  background: #f8faf9 url(./img/feedback/feedbackcard.png) right top no-repeat;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -976,7 +976,7 @@ img {
 
 .hero {
   background-color: #86c3d7;
-  background-image: url(../img/decor__hero.png);
+  background-image: url(./img/decor__hero.png);
   background-repeat: no-repeat;
   background-position: right; }
   @media screen and (max-width: 768px) {
@@ -1074,7 +1074,7 @@ img {
   @media screen and (max-width: 768px) {
     .hero__bars:before {
       content: "";
-      background-image: url(../img/hero/leafs768.png);
+      background-image: url(./img/hero/leafs768.png);
       background-repeat: no-repeat;
       position: absolute;
       display: block;
@@ -1280,7 +1280,7 @@ img {
 
 /* Оформление header*/
 .menu {
-  background: url(../img/menu/menubackground.png) center center/cover no-repeat;
+  background: url(./img/menu/menubackground.png) center center/cover no-repeat;
   position: relative;
   background-size: cover;
   min-height: 550px; }
@@ -1306,13 +1306,13 @@ img {
   display: block; }
 
 .menu__milk .menu__link {
-  background: url(../img/menu/milk.png) center center/cover no-repeat; }
+  background: url(./img/menu/milk.png) center center/cover no-repeat; }
 
 .menu__honey .menu__link {
-  background: url(../img/menu/honey.png) center center/cover no-repeat; }
+  background: url(./img/menu/honey.png) center center/cover no-repeat; }
 
 .menu__berries .menu__link {
-  background: url(../img/menu/berries.png) center center/cover no-repeat; }
+  background: url(./img/menu/berries.png) center center/cover no-repeat; }
 
 .menu__item__title__text {
   display: flex;
@@ -1370,7 +1370,7 @@ img {
   fill: #fffff9; }
 
 .order {
-  background: url(../img/order/orderbackground.png) center center/cover no-repeat; }
+  background: url(./img/order/orderbackground.png) center center/cover no-repeat; }
   @media screen and (max-width: 768px) {
     .order {
       min-height: 970px; } }
@@ -1674,7 +1674,7 @@ img {
   bottom: 0;
   top: 0;
   cursor: pointer;
-  background: url("../img/player-splash.png") center center no-repeat; }
+  background: url("./img/player-splash.png") center center no-repeat; }
 
 .player__splash-play {
   width: 5.125rem;
