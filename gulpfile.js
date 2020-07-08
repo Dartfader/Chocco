@@ -91,12 +91,12 @@ task ('img', () => {
 
  task('icons', () =>{
      return src('src/img/icons/*.svg')
-         // .pipe(
-         //     svgo({
-         //     plugins: [
-         //         {removeAttrs: { attrs:'(fill|stroke|style|width|height|data.*)' }}
-         //     ]})
-         // )
+         .pipe(
+             svgo({
+             plugins: [
+                 {removeAttrs: { attrs:'(fill|stroke|style|width|height|data.*)' }}
+             ]})
+         )
          .pipe(svgSprite(
              {
                  mode: {
